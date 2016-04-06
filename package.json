@@ -4,7 +4,8 @@
 	"description": "Documenting Haxe and PHP",
 	"main": "Gruntfile.js",
 	"scripts": {
-		"test": "helloworld"
+		"test": "helloworld",
+		"deploy": "git subtree push --prefix _book origin gh-pages"
 	},
 	"devDependencies": {
 		"grunt": "~0.4.5",
