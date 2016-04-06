@@ -14,6 +14,8 @@ This is the summary of my book.
 	* [Resources](haxephp/resource.md)
 * [Example Hello World](00helloworld/about.md)
 	* [How to](00helloworld/example.md)
+* [Example Web API](01webapi/about.md)
+	* [How to](01webapi/example.md)
 * Resources
 	* [Who to follow](follow.md)
 	* [HaxeNode](http://matthijskamstra.github.io/haxenode/)
