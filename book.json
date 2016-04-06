@@ -3,11 +3,17 @@
 	"structure": {
         "readme": "intro.md"
     },
-    "plugins": ["edit-link"],
+    "plugins": ["edit-link","disqus","ga"],
     "pluginsConfig": {
-            "edit-link": {
-                "base": "https://github.com/MatthijsKamstra/haxephp/blob/master/",
-                "label": ""
-            }
+        "edit-link": {
+            "base": "https://github.com/MatthijsKamstra/haxephp/blob/master/",
+            "label": ""
+        },
+        "disqus": {
+            "shortName": "haxeandphp"
+        },
+        "ga": {
+            "token": "UA-67866831-3"
+        }
     }
 }
