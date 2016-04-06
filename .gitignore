@@ -21,3 +21,4 @@ _book
 # reminders and other personal stuff
 build.md
 _build.md
+npm-debug.log
