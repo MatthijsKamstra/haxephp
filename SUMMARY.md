@@ -16,6 +16,8 @@ This is the summary of my book.
 	* [How to](00helloworld/example.md)
 * [Example Web API](01webapi/about.md)
 	* [How to](01webapi/example.md)
+* [Example Web API 2](02webapi/about.md)
+	* [How to](02webapi/example.md)
 * Resources
 	* [Who to follow](follow.md)
 	* [HaxeNode](http://matthijskamstra.github.io/haxenode/)
