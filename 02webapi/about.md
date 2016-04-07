@@ -1,7 +1,10 @@
-#About
+#About Webapi 2
 
-So far we've been only using the Haxe Generic API, available for all platforms. Now let's look at the ServerSide specific API, which is located in the package php. 
+The second example in the webapi series!
+This time we will us `php.Web.getParams();` to change the output.
+It will come close to a website, but without the styling.
 
+The next chapter will focus on that part.
 
 This will use the `php.Lib.print` function that prints some raw string (without adding debug information). It will print the parameters sent by the browser.
 
