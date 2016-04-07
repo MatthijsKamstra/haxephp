@@ -1,6 +1,5 @@
 # TODO
 
-http://old.haxe.org/doc/start/php
 
 http://old.haxe.org/doc/php/extern_libraries
 

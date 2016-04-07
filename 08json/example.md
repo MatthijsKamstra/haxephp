@@ -28,7 +28,7 @@ See example below:
 
 This example is getting to big to post here, so if you want to check out the complete file go and check out [Main.hx](https://github.com/MatthijsKamstra/haxephp/tree/master/08json/code/Main.hx) 
 
-So the first part of this code is loading the `json` file. We use <http://api.haxe.org/haxe/Http.html> for that:
+So the first part of this code is loading the `json` file:
 
 ```
 var path = Sys.getCwd() + '/assets/users.json';
