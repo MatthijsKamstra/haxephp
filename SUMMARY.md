@@ -20,6 +20,8 @@ This is the summary of my book.
 	* [How to](02webapi/example.md)
 * [Example Nasa](06nasa/about.md)
 	* [How to](06nasa/example.md)
+* [Example json](08json/about.md)
+	* [How to](08json/example.md)
 * Resources
 	* [Who to follow](follow.md)
 	* [HaxeNode](http://matthijskamstra.github.io/haxenode/)

@@ -24,3 +24,5 @@ _build.md
 npm-debug.log
 02webapi/code/bin
 06nasa/code/bin
+08json/code/bin/www/lib
+index.php
