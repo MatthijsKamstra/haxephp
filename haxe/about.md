@@ -49,7 +49,7 @@ From a ActionScript background it's not difficult at all to work with Haxe. And 
 
 I love the fact that I have one language and with a little work you can export to different targets.
 
-So I can create a PHP backend without writing PHP (I only have to figure out some stuff that you don't have in ActionScript)
+So I can create a PHP backend without writing PHP (I have to figure out some stuff that you don't have in ActionScript)
 
 With Openfl (written on top of Haxe) I can create IOS, Android and html5 applications in a short time.
 
