@@ -6,7 +6,7 @@
    * [Installation](haxe/installation.md)
    * [Code editor](haxe/choosing-a-code-editor.md)
    * [Hello world](haxe/hello-world.md)
-   * [Learn Haxe](haxe/learn-haxe.md)
+* [Learn Haxe](haxe/learn-haxe.md)
 * [Haxe and PHP](haxephp/about.md)
    * [Home](haxephp/index.md)
    * [Download](haxephp/download.md)
