@@ -132,7 +132,7 @@ To finish and see what we have, build the file and see the result
 4. press enter
 
 
-And if everything went according to plan, you should see something simular like this:
+And if everything went according to plan, you should see something similar like this:
 
 ![](screenshot.png)
 
