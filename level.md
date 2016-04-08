@@ -24,24 +24,26 @@ I have a little chapter about [learning Haxe](haxe/learn-haxe.md).
 **A very basic knowledge of the topic but no professional usage**  
 
 * [Example Hello World](00helloworld/about.md)
-* [Example jQuery](01jquery/about.md)
-* [Example DOM](02dom/about.md)
+* [Example webapi 1](01webapi/about.md)
+* [Example webapi 2](02webapi/about.md)
 
 
 ##Intermediate
 **A basic knowledge of the topic but no regular professional usage**  
 
-* [Example VanillaJS](03vanillajs/about.md)
-* [Example Externs](05externs/about.md)
+* [Example webapi 3](03webapi/about.md)
 * [Example NASA](06nasa/about.md)
+* [Example Json](08json/about.md)
 
 
 ##Advanced
 **A good knowledge of the topic and a regular professional usage**  
 
-* [Example pixi.js](07pixi/about.md)
-* [Example Json](08json/about.md)
-* [Example @:expose](09expose/about.md)
+* [Example webapi 4](04webapi/about.md)
+* [Example forms](05forms/about.md)
+* [Example flat file](09flatfile/about.md)
+* [Example SQLite](10sqlite/about.md)
+
 
 
 ##Expert

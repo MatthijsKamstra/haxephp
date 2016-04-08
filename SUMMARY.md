@@ -26,6 +26,8 @@ This is the summary of my book.
 	* [How to](08json/example.md)
 * [Example flat file](09flatfile/about.md)
 	* [How to](09flatfile/example.md)
+* [Example SQLite](10sqlite/about.md)
+	* [How to](10sqlite/example.md)
 * Resources
 	* [Who to follow](follow.md)
 	* [HaxeNode](http://matthijskamstra.github.io/haxenode/)
