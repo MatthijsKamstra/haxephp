@@ -1,6 +1,6 @@
 #Example SQLite database
 
-In a previous example we used a simple flat-file 'database'.
+In a previous example we used a simple flat-file "database".
 An SQLite database is a real database but the lite version. It's the local database for a lot of (mobile)apps.
 
 We will be using [SPOD macros](http://old.haxe.org/manual/spod)
