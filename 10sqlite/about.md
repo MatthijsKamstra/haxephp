@@ -1,6 +1,6 @@
 #About SQLite
 
-In a previous example we used a simple flat-file 'database'.
+In a previous example we used a simple flat-file "database".
 An SQLite database is really a database but the lite version. It's the local database for a lot of (mobile)apps.
 
 ## What is SQLite?
