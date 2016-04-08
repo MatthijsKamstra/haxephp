@@ -1,0 +1,15 @@
+RewriteEngine On
+# RewriteBase /foobar/
+
+
+# Checks to see if the user is attempting to access a valid file,
+# such as an image or css document, if this isn't true it sends the
+# request to index.php
+#
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Default is redirecting to index.php.
+# If you're using Neko, you must change this to index.n.
+#
+RewriteRule ^(.*)$ index.php/$1 [L]

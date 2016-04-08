@@ -4,7 +4,7 @@ Already the third example in the webapi series!
 
 I try to build upon the previous webapi examples. If the [`example.md`](example.md) misses something, make sure to check out the previous webapi examples 
 
-The previous example was kinda ugly (un-styled), in the example we will fix that.
+The previous example was kinda ugly (un-styled), in this example we will fix that.
 
 We will be using [template](http://api.haxe.org/haxe/Template.html) to make that easier.
 Read more about this subject <http://haxe.org/manual/std-template.html>
