@@ -12,7 +12,7 @@ And this documentation hosted on Github, developers favorite place to store code
 Even if you are not a developer and/or don't want to clone everything, you still can modify the files on the website (you only need an account to login in and change the `.md` files).
 
 
-##### Visit [https://github.com/MatthijsKamstra/haxephp](https://github.com/MatthijsKamstra/haxephp) to change the "source" aka markdown files.
+##### Visit [https://github.com/MatthijsKamstra/haxephp](https://github.com/MatthijsKamstra/haxephp) to modify the "source" aka markdown files.
 
 Found any "bug" or have a great idea? Please create a [new issue](https://github.com/MatthijsKamstra/haxephp/issues/new).
 
@@ -38,7 +38,7 @@ The current documentation
 2. Make contributing as-easy-as-possible
 	* I hope Markdown will help with the writing
 	* I hope Github will help with contributing/easy access
-	* And exporting to static HTML is not necessary if you are not up for that (I guess that I will do that)
+	* And exporting to static html is not necessary if you are not up for that (I guess that I will do that)
 3. One place for code and website hosting 
 	* I hope the `gh-pages` will be *THE* place to go to for more info
 
@@ -46,7 +46,7 @@ The current documentation
 
 ## Structure
 
-I haven't given it a long thought, so this is my first idea about it:
+I haven't really given it a long thought, so this is my first idea about it:
 
 Every new tutorial should have:
 

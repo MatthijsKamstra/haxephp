@@ -14,7 +14,7 @@ How to setup your project, install externs and how to work with them. This proba
 
 ###For who is this?
 
-For clever, cool and handsome developers. Duh! :D
+For clever, cool and handsom developers. Duh! :D
 
 * Probably for PHP developers who already started with Haxe.
 * PHP developers who write more then a half a dozen classes.
@@ -35,8 +35,8 @@ Even if you are not a developer and/or don't want to clone everything, you still
 ## Open-sourcing the documentation
 
 I thought I was the first to try to write documentation this way, but other beat me.  
-Although my idea formed by writing a book in Markdown (Gitbook, but there are others).
-Writing documentation is like writing a book.
+Although my idea was formed by writing a book in Markdown (Gitbook, but there are others).
+Writing documentation is very similar to writing a book.
 
 **Other clever developers who had this idea before me:**  
 

@@ -13,7 +13,7 @@ There are a couple ways to install Haxe:
 * Use [Chocolatey](#chocolatey)
 
 
-Although all the installation methods _should_ work, I have only tried the original installer from haxe.org
+Although all the installation methodes _should_ work, I have only tried the original installer from haxe.org
 I would advise everybody to use that one!
 
 
@@ -54,7 +54,7 @@ After installation use: (install latest from git with --HEAD)
 <a name="chocolatey"></a>
 ##Install with chocolatey
 
-This is a Windows only install method. You can get your Chocolatey install instructions from [chocolatey.org](https://chocolatey.org/)
+This is a Windows only install methode. You can get your Chocolatey install instructions from [chocolatey.org](https://chocolatey.org/)
 
 After installation use:
 

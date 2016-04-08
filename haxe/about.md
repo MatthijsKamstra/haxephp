@@ -3,7 +3,7 @@
 ![Haxe logo](../img/haxe_logo.png)
 
 
-Lets get the Wikipedia description first:
+Lets get the wikipedia description first:
 
 > Haxe is an open source high-level multi-platform programming language and compiler that can produce applications and source code for many different platforms from a single code-base.
 >
@@ -34,7 +34,7 @@ And the official description:
 I have though long if I wanted to add a personal note to the "What is Haxe" section. And what would it add?
 But I think it will give context why, or who is using Haxe.
 
-I was an Action-script developer, sadly that language is killed. 
+I was an ActionScript developer, sadly that language is killed. 
 There is a part of me that could rant about that, but it's easier just to say "let move on".
 
 I originally studied to be a graphic designer, but accidentally discovered that I could do animation pretty good.  
@@ -49,7 +49,7 @@ From a ActionScript background it's not difficult at all to work with Haxe. And 
 
 I love the fact that I have one language and with a little work you can export to different targets.
 
-So I can create a PHP backend without writing PHP (I have to figure out some stuff that you don't have in Action-script)
+So I can create a PHP backend without writing PHP (I only have to figure out some stuff that you don't have in ActionScript)
 
 With Openfl (written on top of Haxe) I can create IOS, Android and html5 applications in a short time.
 
