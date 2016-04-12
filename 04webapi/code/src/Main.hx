@@ -3,11 +3,14 @@ package ;
 import haxe.web.Dispatch;
 import haxe.web.Dispatch.DispatchError;
 
-#if neko
-	import neko.Web;
-#elseif php
-	import php.Web; 
-#end 
+#if php
+import php.Lib;
+import php.Web;
+#elseif neko
+import neko.Lib;
+import neko.Web;
+#end
+
 
 /**
  * @author Matthijs Kamstra aka [mck]

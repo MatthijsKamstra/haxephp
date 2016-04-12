@@ -21,3 +21,32 @@ Source: [wikipedia](https://en.wikipedia.org/wiki/PHP)
 PhpToHaxe - tool for helping use php from haxe
 
 <http://phptohaxe.haqteam.com/code.php>
+
+
+## Neko?
+
+In the source you will see this `conditional compiler` statement
+
+```
+#if php
+import php.Lib;
+import php.Web;
+#elseif neko
+import neko.Lib;
+import neko.Web;
+#end
+```
+
+### So what is that `neko`?
+
+> Neko is a high-level dynamically typed programming language.
+
+Note that the `php` package tries to mimic as far as possible the `neko` one. This allows for easy switching between the two platforms
+
+[neko api](http://api.haxe.org/neko/)
+
+## An Introduction to Mod_neko
+
+`Mod_neko` is an Apache module for Neko. This means it's possible to run Neko programs on the server side in order to serve webpages using Apache. Here's a step-by-step tutorial on how to configure and use Mod_neko.
+
+read more [Mod_neko](http://nekovm.org/doc/mod_neko)

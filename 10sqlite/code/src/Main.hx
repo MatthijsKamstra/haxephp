@@ -1,6 +1,11 @@
 package ;
 
+#if php
 import php.Lib;
+#elseif neko
+import neko.Lib;
+#end
+
 import sys.FileSystem;
 
 class Main 
