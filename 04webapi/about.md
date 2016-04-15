@@ -9,7 +9,7 @@ Now we will use `.htaccess` on the server to get 'pritty print url'
 And use the [Web Dispatcher](http://haxe.org/manual/dispatch), read more [Haxe api](http://api.haxe.org/haxe/web/Dispatch.html)
 
 
-This example will look exactly the same as the previous example, with a little deference: the url!
+This example will look the same as the previous example, with a little deference: the url!
 
 <http://localhost/home> instead of <http://localhost/?state=home>
 
