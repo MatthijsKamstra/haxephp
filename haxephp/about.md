@@ -47,6 +47,6 @@ Note that the `php` package tries to mimic as far as possible the `neko` one. Th
 
 ## An Introduction to Mod_neko
 
-`Mod_neko` is an Apache module for Neko. This means it's possible to run Neko programs on the server side in order to serve web-pages using Apache. Here's a step-by-step tutorial on how to configure and use Mod_neko.
+`Mod_neko` is an Apache module for Neko. This means it's possible to run Neko programs on the server side to serve web-pages using Apache. Here's a step-by-step tutorial on how to configure and use Mod_neko.
 
 Read more [Mod_neko](http://nekovm.org/doc/mod_neko).
