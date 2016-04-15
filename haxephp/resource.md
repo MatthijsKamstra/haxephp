@@ -13,12 +13,12 @@ It's not that updated with the information from the old site, so visit the 'old'
 
 ## PHP?
 
-PHP itself is beyond the scope of this resource - it is assumed that you already are familiar with it, and you are here to learn about the Haxe PHP target.
+PHP itself is beyond the scope of this resource. It is assumed that you already are familiar with it, and you are here to learn about the Haxe PHP target.
 
 The following resources are worth checking out as a refresher:
 
 * <http://learnxinyminutes.com/docs/php/>
 * <http://www.w3schools.com/php/default.asp>
 
-All you learn from these resources about PHP is appliable here! 
+All you learn from these resources about PHP is applicable here! 
 
