@@ -1,6 +1,6 @@
 #Resources
 
-You can find more information regarding the core language API, here: [http://api.haxe.org/php/](http://api.haxe.org/php/)
+You can find more information about the core language API, here: [http://api.haxe.org/php/](http://api.haxe.org/php/)
 
 
 ## haxe.org PHP
