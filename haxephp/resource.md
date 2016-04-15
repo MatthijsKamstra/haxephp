@@ -13,7 +13,7 @@ It's not that updated with the information from the old site, so visit the 'old'
 
 ## PHP?
 
-PHP itself is beyond the scope of this resource. It is assumed that you already are familiar with it, and you are here to learn about the Haxe PHP target.
+PHP itself is beyond the scope of this resource. Its assumed that you already are familiar with it, and you are here to learn about the Haxe PHP target.
 
 The following resources are worth checking out as a refresher:
 
