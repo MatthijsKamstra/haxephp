@@ -15,4 +15,4 @@ Read up on that here: [http://api.haxe.org/php/Web.html](http://api.haxe.org/php
 __Note that the `php` package tries to mimic as far as possible the `neko` one. This allows for easy switching between the two platforms__
 
 
-source: <http://old.haxe.org/doc/start/php#web-api>
+Source: <http://old.haxe.org/doc/start/php#web-api>
