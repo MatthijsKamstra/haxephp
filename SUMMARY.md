@@ -32,6 +32,8 @@
    * [How to](09flatfile/example.md)
 * [Example SQLite](10sqlite/about.md)
    * [How to](10sqlite/example.md)
+* [Example MySQL](11mysql/about.md)
+   * [How to](11mysql/example.md)
 * Resources
    * [Who to follow](follow.md)
    * [HaxeNode](http:/matthijskamstra.github.io/haxenode/)
