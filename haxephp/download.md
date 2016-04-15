@@ -25,5 +25,5 @@ But if the version numbers changed, it means I haven't updated this part of the 
 <a name="ide"></a>
 ##Code editor
 
-If you work on Windows you should install [FlashDevelop](http://www.flashdevelop.org), on other platforms you should read this chapter: [Choosing a Code Editor](../haxe/choosing-a-code-editor.md).
+If you work on Windows you should install [FlashDevelop](http://www.flashdevelop.org). On other platforms you should read this chapter: [Choosing a Code Editor](../haxe/choosing-a-code-editor.md).
 
