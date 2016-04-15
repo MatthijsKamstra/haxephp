@@ -1,7 +1,7 @@
 #Example SQLite database
 
 In a previous example we used a simple flat-file 'database'.
-An SQLite database is really a database but the lite version. It's the local database for a lot of (mobile)apps.
+An SQLite database is a database but the lite version. It's the local database for a lot of (mobile)apps.
 
 We will be using [SPOD macros](http://old.haxe.org/manual/spod)
 Check more info in the [about](about.md).
@@ -64,7 +64,7 @@ This class generates random users.
 The function `createRandomUser()` does exactly what you would expect, if you really want to know, check the source code.
 
 So a user!  
-We have used a typedef before, this looks very simular.  
+We have used a typedef before, this looks very similar.  
 The strange stuff here are the types, they are not the default types that Haxe uses.  
 Read more about that: [creating-a-spod](http://old.haxe.org/manual/spod#creating-a-spod)
 
@@ -80,7 +80,7 @@ class User extends sys.db.Object {
 
 ```
 
-So now we have a database, lets check out the code to get the data from the database:
+Now we have a database, lets check out the code to get the data from the database:
 
 `Main.hx`
 
