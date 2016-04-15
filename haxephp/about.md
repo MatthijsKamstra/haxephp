@@ -18,7 +18,7 @@ Source: [wikipedia](https://en.wikipedia.org/wiki/PHP)
 
 ## Convert PHP to Haxe
 
-PhpToHaxe - tool for helping use php from haxe
+PhpToHaxe - tool for helping use PHP from Haxe
 
 <http://phptohaxe.haqteam.com/code.php>
 
