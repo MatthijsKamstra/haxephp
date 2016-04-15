@@ -19,17 +19,17 @@ In any website, it is necessary to be able to transform a given URL (such as /us
 
 A typical website application will do (for each request) :
 
-- connect to the database, fetch user/session credentials, initialize everything
-- resolve the class/method which we need to call based on the URL
-- dispatch the request (call the method)
-- print result
-- cleanup
+- Connect to the database, fetch user/session credentials, initialize everything
+- Resolve the class/method which we need to call based on the URL
+- Dispatch the request (call the method)
+- Print result
+- Cleanup
 
 
 
-# more info
+# More info
 
-This example is a simplified example from the the example written down by Jason O'Neil
+This example is a simplified example from the example written down by Jason O'Neil
 
 - <https://gist.github.com/jasononeil/5667079>
 - <http://jasono.co/2013/05/29/creating-complex-url-routing-schemes-with-haxe-web-dispatch/>
