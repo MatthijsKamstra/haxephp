@@ -54,11 +54,11 @@ To finish and see what we have, build the file and see the result
 
 1. Open your terminal
 2. `cd ` to the correct folder where you have saved the `php.hxml` 
-3. type `haxe php.hxml`
+3. Type `haxe php.hxml`
 4. press enter
 
 
-It will output php files in the `bin/www` folder
+It will output PHP files in the `bin/www` folder
 You can configure your webserver to point at the www folder to see the PHP code in action.
 
 
