@@ -1,6 +1,6 @@
 # Haxe and PHP
 
-There is not a lot of infomation about Haxe and PHP. I decided to do something about that.
+There is not a lot of information about Haxe and PHP. I decided to do something about that.
 
 #### Visit [http://matthijskamstra.github.io/haxephp/](http://matthijskamstra.github.io/haxephp/)
 
