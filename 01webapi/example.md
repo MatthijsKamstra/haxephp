@@ -2,7 +2,7 @@
 
 Check the [code folder](https://github.com/MatthijsKamstra/haxephp/tree/master/01webapi/code) for more comments.
 
-So far we've been only using the Haxe Generic API, available for all platforms. Now let's look at the ServerSide specific API, which is located in the package php. Modify your Index.hx file with the following content :
+So far we've been using the Haxe Generic API, available for all platforms. Now let's look at the ServerSide specific API, which is located in the package php. Change your Index.hx file with the following content :
 
 
 
