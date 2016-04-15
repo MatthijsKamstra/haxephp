@@ -3,7 +3,7 @@
 The previous example was a lite databases. We now move over to MySQL, the PHP database mother load.
 Almost all website running on PHP use MySQL.
 
-We will be using [SPOD macros](http://old.haxe.org/manual/spod)
+We will be using [SPOD macros](http://old.haxe.org/manual/spod).
 Check more info in the [about](about.md).
 
 
@@ -74,7 +74,7 @@ This class generates random users.
 	cnx.close();
 
 ```
-The function `createRandomUser()` does exactly what you would expect, if you really want to know, check the source code.
+The function `createRandomUser()` does what you would expect, if you want to know, check the source code.
 
 So a user!  
 We have used a typedef before, this looks very similar.  
