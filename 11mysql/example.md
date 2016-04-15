@@ -7,7 +7,7 @@ We will be using [SPOD macros](http://old.haxe.org/manual/spod).
 Check more info in the [about](about.md).
 
 
-_The code used in this example can is [here](https://github.com/MatthijsKamstra/haxephp/tree/master/11mysql/code)._
+_The code used in this example is [here](https://github.com/MatthijsKamstra/haxephp/tree/master/11mysql/code)._
 
 
 ## How to start
