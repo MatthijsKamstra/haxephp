@@ -14,7 +14,7 @@ How to setup your project, install externs and how to work with them. This proba
 
 ###For who is this?
 
-For clever, cool and handsom developers. Duh! :D
+For clever, cool and handsome developers. Duh! :D
 
 * Probably for PHP developers who already started with Haxe.
 * PHP developers who write more then a half a dozen classes.
@@ -27,16 +27,16 @@ For clever, cool and handsom developers. Duh! :D
 ## Documentation goals
 
 I wanted to make contributing to this documentation as easy as possible.  
-That's why I use Markdown; developers use it, but is really just plane English so **everybody** can write documentation!  
+That's why I use Markdown. Developers use it, but is just writing in plane English so **everybody** can write documentation!  
 And this documentation hosted on Github, developers favorite place to store code.  
-Even if you are not a developer and/or don't want to clone everything, you still can modify the files on the website (you need account to login in and change the `.md` files).
+Even if you are not a developer. Don't want to clone everything, you still can change the files on the website (you need account to login in and change the `.md` files).
+And as a final resort, you can leave your comments/suggestions/etc at the bottom of the page via Disqus.
 
 
 ## Open-sourcing the documentation
 
-I thought I was the first to try to write documentation this way, but other beat me.  
-Although my idea was formed by writing a book in Markdown (Gitbook, but there are others).
-Writing documentation is very similar to writing a book.
+I thought I was the first to try to write documentation and open-sourcing it this way, but other beat me.  
+Although I was already writing everything with markdown, it looked like a good idea to use Gitbook to "publish" it. Writing documentation is like writing a book.
 
 **Other clever developers who had this idea before me:**  
 

@@ -2,8 +2,10 @@
 
 This is the summary of my book.
 
+* [Introduction](intro.md)
 * [Level of Difficulty](level.md)
 * [Haxe basics](haxe/about.md)
+	* [Quick install](haxe/quick-install.md)
 	* [Installation](haxe/installation.md)
 	* [Code editor](haxe/choosing-a-code-editor.md)
 	* [Hello world](haxe/hello-world.md)
@@ -39,3 +41,4 @@ This is the summary of my book.
 	* [Community](https://groups.google.com/forum/#!topic/haxelang/)
 * [Contribute](contribute.md)
 * [Source](https://github.com/MatthijsKamstra/haxephp/)
+* [Suggestion Box](https:/github.com/MatthijsKamstra/haxephp/issues/)
