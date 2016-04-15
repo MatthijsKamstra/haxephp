@@ -25,12 +25,13 @@ Some more information about json can be found on the classic <http://www.w3schoo
 
 JSON values can be:
 
-A number (integer or floating point)
-A string (in double quotes)
-A Boolean (true or false)
-An array (in square brackets)
-An object (in curly braces)
-null
+* A number (integer or floating point)
+* A string (in double quotes)
+* A Boolean (true or false)
+* An array (in square brackets)
+* An object (in curly braces)
+* A null
+
 
 ```
 {
