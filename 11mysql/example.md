@@ -153,7 +153,7 @@ Now we have a database, lets check out the code to get the data from the databas
 ## The Haxe build file, php.hxml
 
 There are a lot of different arguments that you are able to pass to the Haxe compiler.
-These arguments can also be placed into a text file of one per line with the extension hxml. This file can then be passed directly to the Haxe compiler as a build script.
+Set these arguments into a text file of one per line with the extension hxml. This file passes it directly to the Haxe compiler as a build script.
 
 ```
 # // php.hxml
@@ -174,7 +174,7 @@ To finish and see what we have, build the file and see the result
 4. Press enter
 
 
-And if everything went according to plan, you should see something simular like this:
+And if everything went according to plan, you should see something similar like this:
 
 ![](screenshot.png)
 
