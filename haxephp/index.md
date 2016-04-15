@@ -1,6 +1,6 @@
 # PHP Reloaded
 
-**Haxe PHP** is similar to PHP, but includes new features like:
+**Haxe PHP** is like PHP, but includes new features like:
 
 * [Strong Typing](http://Haxe.org/manual/types.html) 
 * [Inlining](http://Haxe.org/manual/class-field-inline.html) 
@@ -43,6 +43,6 @@ You do not need to change everything from JavaScript to **Haxe PHP**: they can w
 
 ## Use Popular Frameworks
 
-Using externs, **Haxe PHP** supports xxx
+Using externs, **Haxe PHP** supports xxx.
 And even more libraries through [`Haxelib`](http://lib.haxe.org/).
 
