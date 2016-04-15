@@ -7,7 +7,7 @@ We will be using [SPOD macros](http://old.haxe.org/manual/spod).
 Check more info in the [about](about.md).
 
 
-_The code used in this example can be found [here](https://github.com/MatthijsKamstra/haxephp/tree/master/11mysql/code)._
+_The code used in this example can is [here](https://github.com/MatthijsKamstra/haxephp/tree/master/11mysql/code)._
 
 
 ## How to start
@@ -164,7 +164,7 @@ Set these arguments into a text file of one per line with the extension hxml. Th
 ```
 
 
-## Build php with Haxe
+## Build PHP with Haxe
 
 To finish and see what we have, build the file and see the result
 
