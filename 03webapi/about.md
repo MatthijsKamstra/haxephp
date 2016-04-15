@@ -9,8 +9,8 @@ The previous example was kinda ugly (un-styled), in this example we will fix tha
 We will be using [template](http://api.haxe.org/haxe/Template.html) to make that easier.
 Read more about this subject <http://haxe.org/manual/std-template.html>
 
-For styling we will use [Bootstrap](http://getbootstrap.com/getting-started/)
+For styling we will use [Bootstrap](http://getbootstrap.com/getting-started/).
 And the same html structure: [check example here](http://getbootstrap.com/getting-started/#template) 
 
-So the css (styling) will be via Bootstrap CDN
+The CSS (styling) will be via Bootstrap CDN.
 
