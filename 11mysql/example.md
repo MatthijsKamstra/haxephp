@@ -1,7 +1,7 @@
 #Example MySQL database
 
-The previous example is a lite databases. We now move over to MySQL, the PHP database mother load.
-Allmost all website running on PHP use MySQL.
+The previous example was a lite databases. We now move over to MySQL, the PHP database mother load.
+Almost all website running on PHP use MySQL.
 
 We will be using [SPOD macros](http://old.haxe.org/manual/spod)
 Check more info in the [about](about.md).
