@@ -79,7 +79,7 @@ The function `createRandomUser()` does what you would expect, if you want to kno
 A user!  
 We have used a `typedef` before, this looks similar.  
 The strange stuff here are the types, they are not the default types that Haxe uses.  
-Read more about that: [creating-a-spod](http://old.haxe.org/manual/spod#creating-a-spod)
+Read more about that: [creating-a-spod](http://old.haxe.org/manual/spod#creating-a-spod).
 
 ```
 import sys.db.Types;
