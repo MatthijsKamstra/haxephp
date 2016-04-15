@@ -37,7 +37,7 @@ import neko.Web;
 #end
 ```
 
-### So what is that `neko`?
+### What is that `neko`?
 
 > Neko is a high-level dynamically typed programming language.
 
