@@ -8,9 +8,9 @@ There is not a lot of infomation about Haxe and PHP. I decided to do something a
 ## How to contribute?
 
 Read more about that [here](contribute.md).  
-But really it boils down to: **JUST DO IT!**
+But it boils down to: **JUST DO IT!**
 
-#### Visit [https://github.com/MatthijsKamstra/haxephp](https://github.com/MatthijsKamstra/haxephp) to modify the "source" aka markdown files.
+#### Visit [https://github.com/MatthijsKamstra/haxephp](https://github.com/MatthijsKamstra/haxephp) to change the "source" aka markdown files.
 
 Found any "bug" or have a great idea? Please create a [new issue](https://github.com/MatthijsKamstra/haxephp/issues/new).
 
