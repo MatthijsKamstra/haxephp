@@ -1,10 +1,10 @@
 #About flatfile 
 
-A very common way of loading data in your web-app is the use of `json` files.
+A common way of loading data in your web-app is the use of `json` files.
 
 But you can also use it as a flat-file database:
 
-> In databases a flat file refers to data files that contain records with no structured relationships. Flat files may contain only basic formatting, have a small fixed number of fields, and it may or may not have a file format.
+> In databases a flat file refers to data files that contain records with no structured relationships. Flat files may contain basic formatting, have a small fixed number of fields, and it may or may not have a file format.
 
 So in this example we read and write a json file asif it was a database.
 
