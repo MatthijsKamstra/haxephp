@@ -8,8 +8,7 @@ You can find more information about the core language API, here: [http://api.hax
 Read more about Haxe and PHP in the manual:
 [http://haxe.org/manual/target-php.html](http://haxe.org/manual/target-php.html)
 
-It's sadly not that updated, so visit the 'old' website for more information:
-[Getting started with Haxe/PHP](http://old.haxe.org/doc/start/php) or [old PHP tutorials](http://old.haxe.org/doc/php)
+It's not that updated with the information from the old site, so visit the 'old' website for more information: [Getting started with Haxe/PHP](http://old.haxe.org/doc/start/php) or [old PHP tutorials](http://old.haxe.org/doc/php)
 
 
 ## PHP?
