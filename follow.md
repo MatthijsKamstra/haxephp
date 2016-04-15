@@ -1,10 +1,10 @@
 #Who to follow
 
 The Haxe community is a pleasant one.
-So if you have questions, just got the [google haxe group](https://groups.google.com/forum/#!topic/haxelang/) and ask it.
+If you have questions, just got the [google haxe group](https://groups.google.com/forum/#!topic/haxelang/) and ask it.
 
-You can also be non verbal and just follow Haxe people on Twitter for example
-I have compiled a list of Haxe peeps with there speciality 
+You can also be non verbal and just follow Haxe people on Twitter for example.
+I have compiled a list of Haxe peeps with there specialty 
 
 
 ##Haxe in general
