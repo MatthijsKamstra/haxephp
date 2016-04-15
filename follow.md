@@ -61,7 +61,7 @@ fixme
 
 ##AS3
 
-Sadly this is a dying art, but its still used as a quick Haxe target to test and build games in.
+ActionScript is a dying art, but its still used as a quick Haxe target to test and build games in.
 You still see it a lot with Lodum Dare
 
 | Name | Github | Twitter | Facebook | LinkedIn | Blog | 
