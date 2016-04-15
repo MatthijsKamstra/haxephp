@@ -143,8 +143,8 @@ To finish and see what we have, build the file and see the result
 
 1. Open your terminal
 2. `cd ` to the correct folder where you have saved the `php.hxml` 
-3. type `haxe php.hxml`
-4. press enter
+3. Type `haxe php.hxml`
+4. Press enter
 
 
 You could build everything directly in the terminal.
