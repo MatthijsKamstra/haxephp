@@ -35,11 +35,14 @@
 * [Example MySQL](11mysql/about.md)
    * [How to](11mysql/example.md)
 * Resources
-   * [Who to follow](follow.md)
-   * [More like this](more.md)
-   * [Try Haxe!](http:/try.haxe.org/)
-   * [Community](https:/groups.google.com/forum/#!topic/haxelang/)
+   * [Who to follow](resources/follow.md)
+   * [More like this](resources/more.md)
+   * [Try Haxe!](https://try.haxe.org/)
+   * [Community](http://community.haxe.org/)
 * [Contribute](contribute.md)
 * [Source](https:/github.com/MatthijsKamstra/haxephp/)
 * [Suggestion Box](https:/github.com/MatthijsKamstra/haxephp/issues/)
+
+
+
 

@@ -19,14 +19,14 @@ See example below:
 	+ bin
 	+ src
 		- Main.hx
-	- php.hxml
+	- build.hxml
 ```
 
 
 
 ## The Main.hx
 
-This example is getting to big to post here, so if you want to check out the complete file go and check out [Main.hx](https://github.com/MatthijsKamstra/haxephp/tree/master/09flatfile/code/Main.hx) 
+This example is getting to big to post here, so if you want to check out the complete file go and check out [Main.hx](https://github.com/MatthijsKamstra/haxephp/tree/master/09flatfile/code/Main.hx)
 
 
 The next code wil do that following
@@ -34,7 +34,7 @@ The next code wil do that following
 - load the data
 - `if` the data == null
 	- generate a json with current date
-- `else` use the loaded data to 
+- `else` use the loaded data to
 	- keep the created date the same
 	- change the update
 	- and `+1` the counter
@@ -58,7 +58,7 @@ In the folder `utils` you will find a `Read.hx`
 It has a static function `json` that will read the file (if it exists)
 
 - it will check `if` the file exists
-	- get the content of that file 
+	- get the content of that file
 	- parse it to json
 - `else` if will return null
 
@@ -74,14 +74,14 @@ public static function json(folderName:String, fileName:String) : Dynamic
 		json = null;
 	}
 	return json;
-}	
+}
 ```
 
 In that same folder folder `utils` you will find a `Write.hx`
 It has a static function `json` which writes the file to the system
 
 - it will check `if` the folder exists
-	- if not create the folder 
+	- if not create the folder
 - check if the creation of the folder worked
 - write the file
 
@@ -105,7 +105,7 @@ public static function json(folderName:String, fileName:String, data:Dynamic) : 
     var f:FileOutput = File.write(_filePath,false);
     f.writeString(haxe.Json.stringify(data));
     f.close();
-}	
+}
 ```
 
 To make that easier I use [`typedef`](http://haxe.org/manual/type-system-typedef.html)
@@ -113,7 +113,7 @@ To make that easier I use [`typedef`](http://haxe.org/manual/type-system-typedef
 We convert the json data to `CounterData` so when we use a IDE it will use autocompletion
 
 ```
-typedef CounterData = 
+typedef CounterData =
 {
 	var update : Date;
 	var created : Date;
@@ -123,13 +123,13 @@ typedef CounterData =
 ```
 
 
-## The Haxe build file, php.hxml
+## The Haxe build file, build.hxml
 
 There are a lot of different arguments that you are able to pass to the Haxe compiler.
 These arguments can also be placed into a text file of one per line with the extension hxml. This file can then be passed directly to the Haxe compiler as a build script.
 
 ```
-# // php.hxml
+# // build.hxml
 -cp src
 -main Main
 -php bin/www
@@ -142,8 +142,8 @@ These arguments can also be placed into a text file of one per line with the ext
 To finish and see what we have, build the file and see the result
 
 1. Open your terminal
-2. `cd ` to the correct folder where you have saved the `php.hxml` 
-3. Type `haxe php.hxml`
+2. `cd ` to the correct folder where you have saved the `build.hxml`
+3. Type `haxe build.hxml`
 4. Press enter
 
 

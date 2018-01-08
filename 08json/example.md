@@ -1,4 +1,4 @@
-#Example json
+# Example json
 
 I have created the [user.json](https://github.com/MatthijsKamstra/haxephp/tree/master/08json/code/bin/www/assets/users.json) with <http://jsonplaceholder.typicode.com/users>.
 
@@ -19,14 +19,14 @@ See example below:
 	+ bin
 	+ src
 		- Main.hx
-	- php.hxml
+	- build.hxml
 ```
 
 
 
 ## The Main.hx
 
-This example is too big to post here, so if you want to check out the complete file visit [Main.hx](https://github.com/MatthijsKamstra/haxephp/tree/master/08json/code/Main.hx) 
+This example is too big to post here, so if you want to check out the complete file visit [Main.hx](https://github.com/MatthijsKamstra/haxephp/tree/master/08json/code/Main.hx)
 
 So the first part of this code is loading the `json` file:
 
@@ -50,8 +50,8 @@ convert data (String) to a `json` file:
 
 And then it's possible to convert the `json` to usable input:
 
-```
-for (i in 0 ... json.length)
+```haxe
+for (i in 0 ... _json.length)
 {
 	var _user = json[i];
 	trace ( "Name: " + _user.name );
@@ -63,8 +63,8 @@ To make that easier I use [`typedef`](http://haxe.org/manual/type-system-typedef
 
 We convert the json data to `User` so when we use a IDE it will use autocompletion
 
-```
-typedef User = 
+```haxe
+typedef User =
 {
 	var id : Int; // 1
 	var name : String; // Leanne Graham
@@ -92,13 +92,13 @@ typedef User =
 ```
 
 
-## The Haxe build file, php.hxml
+## The Haxe build file, build.hxml
 
 There are a lot of different arguments that you are able to pass to the Haxe compiler.
 These arguments can also be placed into a text file of one per line with the extension hxml. This file can then be passed directly to the Haxe compiler as a build script.
 
 ```
-# // php.hxml
+# // build.hxml
 -cp src
 -main Main
 -php bin/www
@@ -111,8 +111,8 @@ These arguments can also be placed into a text file of one per line with the ext
 To finish and see what we have, build the file and see the result
 
 1. Open your terminal
-2. `cd ` to the correct folder where you have saved the `php.hxml` 
-3. type `haxe php.hxml`
+2. `cd ` to the correct folder where you have saved the `build.hxml`
+3. type `haxe build.hxml`
 4. press enter
 
 

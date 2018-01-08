@@ -1,4 +1,4 @@
-#About loading a json 
+# About loading a json
 
 A very common way of loading data in your web-app is the use of `json` files.
 

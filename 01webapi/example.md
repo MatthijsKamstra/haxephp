@@ -21,13 +21,13 @@ See example below:
 	+ bin
 	+ src
 		- Main.hx
-	- php.hxml
+	- build.hxml
 ```
 
 
 ## The Main.hx
 
-Open your favorite editor, copy/paste the code and save it in the `src` folder. 
+Open your favorite editor, copy/paste the code and save it in the `src` folder.
 
 
 ```
@@ -54,13 +54,13 @@ class Main
 ```
 
 
-## The Haxe build file, php.hxml
+## The Haxe build file, build.hxml
 
 There are a lot of different arguments that you are able to pass to the Haxe compiler.
 These arguments can also be placed into a text file of one per line with the extension hxml. This file can then be passed directly to the Haxe compiler as a build script.
 
 ```
-# // php.hxml
+# // build.hxml
 -cp src
 -main Main
 -php bin/www
@@ -73,8 +73,8 @@ These arguments can also be placed into a text file of one per line with the ext
 To finish and see what we have, build the file and see the result
 
 1. Open your terminal
-2. `cd ` to the correct folder where you have saved the `php.hxml` 
-3. type `haxe php.hxml`
+2. `cd ` to the correct folder where you have saved the `build.hxml`
+3. type `haxe build.hxml`
 4. press enter
 
 

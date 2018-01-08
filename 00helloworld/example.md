@@ -10,37 +10,58 @@ See example below:
 	+ bin
 	+ src
 		- Main.hx
-	- php.hxml
+	- build.hxml
 ```
 
 ## The Main.hx
 
 Open your favorite editor, copy/paste the code and save it in the `src` folder. 
 
-```
-package ;
+```haxe
+package;
 
 class Main
 {
-	function new()
-	{
-		trace("Example");
+	// constructor
+	function new() {
+		trace("Hello world");
 	}
 
-    static public function main()
-    {
-        var main = new Main();
+	// run code automatically
+	static public function main() {
+		var main = new Main();
 	}
 }
 ```
 
-## The Haxe build file, php.hxml
+Below you can see and try the same example code at [try.haxe.org](https://try.haxe.org/) without installing Haxe.
+
+<iframe src="https://try.haxe.org/embed/80cf4" width="100%" height="300" frameborder="no" allowfullscreen>
+	<a href="https://try.haxe.org/#80cf4">Try Haxe !</a>
+</iframe>
+
+You could create an even shorter "hello world" example:
+
+<iframe src="https://try.haxe.org/embed/197E1" width="100%" height="300" frameborder="no" allowfullscreen>
+	<a href="https://try.haxe.org/#197E1">Try Haxe !</a>
+</iframe>
+
+But I think it's a good idea to use the static main function only to start the constructor
+```haxe
+static public function main() {var main = new Main(); }
+```
+
+> If you want certain code to run automatically, you need to put it in a static main function, and specify the class in the compiler arguments.
+
+
+
+## The Haxe build file, build.hxml
 
 There are a lot of different arguments that you are able to pass to the Haxe compiler.
-These arguments can also be placed into a text file of one per line with the extension hxml. This file can then be passed directly to the Haxe compiler as a build script.
+Place these arguments into a text file of one per line with the extension hxml. This file can then passed directly to the Haxe compiler as a build script.
 
 ```
-# // php.hxml
+# // build.hxml
 -cp src
 -main Main
 -php bin/www
@@ -53,9 +74,9 @@ These arguments can also be placed into a text file of one per line with the ext
 To finish and see what we have, build the file and see the result
 
 1. Open your terminal
-2. `cd ` to the correct folder where you have saved the `php.hxml` 
-3. Type `haxe php.hxml`
-4. press enter
+2. `cd ` to the correct folder where you have saved the `build.hxml`
+3. Type `haxe build.hxml`
+4. Press enter
 
 
 It will output PHP files in the `bin/www` folder

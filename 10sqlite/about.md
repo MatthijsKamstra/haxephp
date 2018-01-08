@@ -5,7 +5,7 @@ An SQLite database is a database but the lite version. It's the local database f
 
 ## What is SQLite?
 
-> SQLite is a software library that implements a self-contained, serverless, zero-configuration, transactional SQL database engine. SQLite is the most widely deployed database engine in the world. The source code for SQLite is in the public domain. 
+> SQLite is a software library that implements a self-contained, serverless, zero-configuration, transactional SQL database engine. SQLite is the most widely deployed database engine in the world. The source code for SQLite is in the public domain.
 
 __source: <https://www.sqlite.org/>__
 
@@ -33,3 +33,5 @@ But first, let's explain what SPOD is doing. With SPOD, you can define some Clas
 
 
 <http://old.haxe.org/manual/spod>
+
+<https://github.com/HaxeFoundation/record-macros>

@@ -1,10 +1,10 @@
-#Help!
+# Help!
 
 ![HELP](http://lorempixel.com/800/200/technics/HELP/)
 
 _or perhaps better_
 
-#Contribute!
+# Contribute!
 
 I wanted to make contributing to this documentation as easy as possible.  
 That's why I use Markdown. Developers use it, but is just writing in plane English so **everybody** can write documentation!  
@@ -29,7 +29,7 @@ The current documentation
 3. all over the place
 4. almost none
 
-**So what can be improved:**
+**How to improve on this:**
 
 1. Add more simple, easy to start with examples
 	* Simple how to start with Haxe
@@ -56,7 +56,7 @@ Every new tutorial should have:
 	|	+ bin
 	|	+ src
 	|	|	- Main.hx
-	|	- javascript.hxml
+	|	- build.hxml
 	- about.md (short description what it will do)
 	- install.md (is there something you need to install)
 	- example.md (javscript.hxml, Main.hx, how to build, etc)
@@ -65,10 +65,10 @@ Every new tutorial should have:
 
 ## Open-sourcing the documentation
 
-I thought I was the first to try to write documentation and open-sourcing it this way, but other beat me.  
+I thought I was the first to try to write documentation and open-sourcing it this way, but other beat me.
 Although I was already writing everything with markdown, it looked like a good idea to use Gitbook to "publish" it. Writing documentation is like writing a book.
 
-**Other clever developers who had this idea before me:**  
+**Other clever developers who had this idea before me:**
 
 * [babylon js open sourcing the documentation](http://blogs.msdn.com/b/eternalcoding/archive/2015/08/11/babylon-js-open-sourcing-the-documentation.aspx)
 * [building markdown based developer docs](https://medium.com/code-stories/building-markdown-based-developer-docs-87c0317c56f7)
@@ -77,7 +77,7 @@ Although I was already writing everything with markdown, it looked like a good i
 
 ## I want to be positive, but internet says differently...
 
-If you got to this part of the contribute file, *GREAT*!  
+If you got to this part of the contribute file, *GREAT*!
 Although I hope this project will run on contributions of other, the internet is kinda negative about it...
 
 * [http://www.quora.com/What-percentage-of-professional-software-developers-have-contributed-to-Open-Source-projects](http://www.quora.com/What-percentage-of-professional-software-developers-have-contributed-to-Open-Source-projects)
