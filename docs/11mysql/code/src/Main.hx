@@ -7,24 +7,25 @@ import neko.Lib;
 #end
 
 import sys.FileSystem;
+import sys.db.*;
 
-class Main 
+class Main
 {
 
-	public function new() 
+	public function new()
 	{
 		var html = '';
 
 		// initialize the connection
 		var useMysql = true;
 		var isDummyData = false;
-	
+
 		// check if file exists
 		if(!useMysql){
 			if ( ! sys.FileSystem.exists ( "mybase.ddb" ) ){
-				// init SQlite database 
+				// init SQlite database
 				new DBStart(useMysql);
-			} 
+			}
 		} else {
 			new DBStart(useMysql);
 		}
@@ -35,7 +36,7 @@ class Main
 			cnx = sys.db.Sqlite.open("mybase.db");
 		else {
 			// Open a connection
-			cnx = sys.db.Mysql.connect({ 
+			cnx = sys.db.Mysql.connect({
 				host : "localhost",
 				port : 3306,
 				database : "MyDatabase",
@@ -52,9 +53,9 @@ class Main
 		sys.db.Manager.initialize();
 
 		// for (i in 0 ... User.manager.all().length) {
-		//  var _user = User.manager.get(i);        
+		//  var _user = User.manager.get(i);
 		//  if(_user != null) trace(_user.name);
-		// }    
+		// }
 
 		createList();
 

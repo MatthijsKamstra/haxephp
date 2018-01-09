@@ -81,7 +81,8 @@ class sys_db_Manager {
 					if(!$f->isNull) {
 						$_g21 = $f->t;
 						switch($_g21->index) {
-						case 0:case 2:case 4:case 20:case 30:case 32:case 33:{
+						case 1:case 3:case 5:case 6:case 7:case 23:case 24:case 25:case 26:case 27:case 28:case 29:case 31:{
+							$x->{$fieldName} = 0;
 						}break;
 						case 8:{
 							$x->{$fieldName} = false;
@@ -95,8 +96,7 @@ class sys_db_Manager {
 							$value1 = haxe_io_Bytes::alloc(0);
 							$x->{$fieldName} = $value1;
 						}break;
-						case 1:case 3:case 5:case 6:case 7:case 23:case 24:case 25:case 26:case 27:case 28:case 29:case 31:{
-							$x->{$fieldName} = 0;
+						case 0:case 2:case 4:case 20:case 30:case 32:case 33:{
 						}break;
 						}
 						unset($_g21);

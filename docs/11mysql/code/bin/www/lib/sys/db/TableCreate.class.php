@@ -24,10 +24,6 @@ class sys_db_TableCreate {
 			$GLOBALS['%s']->pop();
 			return $tmp;
 		}break;
-		case 1:case 20:{
-			$GLOBALS['%s']->pop();
-			return "INTEGER";
-		}break;
 		case 2:{
 			$tmp = "INTEGER UNSIGNED " . _hx_string_or_null(sys_db_TableCreate::autoInc($dbName));
 			$GLOBALS['%s']->pop();
@@ -98,10 +94,6 @@ class sys_db_TableCreate {
 			$GLOBALS['%s']->pop();
 			return "LONGBLOB";
 		}break;
-		case 18:case 22:case 30:{
-			$GLOBALS['%s']->pop();
-			return "MEDIUMBLOB";
-		}break;
 		case 19:{
 			$n1 = _hx_deref($t)->params[0];
 			{
@@ -109,6 +101,14 @@ class sys_db_TableCreate {
 				$GLOBALS['%s']->pop();
 				return $tmp;
 			}
+		}break;
+		case 1:case 20:{
+			$GLOBALS['%s']->pop();
+			return "INTEGER";
+		}break;
+		case 18:case 22:case 30:{
+			$GLOBALS['%s']->pop();
+			return "MEDIUMBLOB";
 		}break;
 		case 23:{
 			$auto = _hx_deref($t)->params[1];
@@ -141,10 +141,6 @@ class sys_db_TableCreate {
 			$GLOBALS['%s']->pop();
 			return "TINYINT";
 		}break;
-		case 25:case 31:{
-			$GLOBALS['%s']->pop();
-			return "TINYINT UNSIGNED";
-		}break;
 		case 26:{
 			$GLOBALS['%s']->pop();
 			return "SMALLINT";
@@ -160,6 +156,10 @@ class sys_db_TableCreate {
 		case 29:{
 			$GLOBALS['%s']->pop();
 			return "MEDIUMINT UNSIGNED";
+		}break;
+		case 25:case 31:{
+			$GLOBALS['%s']->pop();
+			return "TINYINT UNSIGNED";
 		}break;
 		case 32:case 33:{
 			throw new HException("assert");
@@ -265,7 +265,7 @@ class sys_db_TableCreate {
 }
 function sys_db_TableCreate_0(&$manager, $v) {
 	{
-		$GLOBALS['%s']->push("sys.db.TableCreate::create@67");
+		$GLOBALS['%s']->push("sys.db.TableCreate::create@66");
 		$__hx__spos = $GLOBALS['%s']->length;
 		{
 			$tmp = $manager->quoteField($v);

@@ -1,6 +1,8 @@
 package;
 
-class DBStart 
+import sys.db.*;
+
+class DBStart
 {
 	public function new(useMysql = true)
 	{
@@ -11,7 +13,7 @@ class DBStart
 			cnx = sys.db.Sqlite.open("mybase.db");
 		else {
 			// Open a connection
-			cnx = sys.db.Mysql.connect({ 
+			cnx = sys.db.Mysql.connect({
 				host : "localhost",
 				port : 3306,
 				database : "MyDatabase",
@@ -37,7 +39,7 @@ class DBStart
 			var user = createRandomUser();
 			user.insert();
 		}
-		
+
 		// close the connection and do some cleanup
 		sys.db.Manager.cleanup();
 
