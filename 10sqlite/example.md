@@ -1,4 +1,4 @@
-#Example SQLite database
+# Example SQLite database
 
 In a previous example we used a simple flat-file 'database'.
 An SQLite database is a database but the lite version. It's the local database for a lot of (mobile)apps.

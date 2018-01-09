@@ -1,4 +1,4 @@
-#Example MySQL database
+# Example MySQL database
 
 The previous example was a lite databases. We now move over to MySQL, the PHP database mother load.
 Almost all website running on PHP use MySQL.

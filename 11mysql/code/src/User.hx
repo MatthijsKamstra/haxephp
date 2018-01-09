@@ -1,4 +1,5 @@
 import sys.db.Types;
+import sys.db.*;
 
 class User extends sys.db.Object {
 	public var id : SId;
