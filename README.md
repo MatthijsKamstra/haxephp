@@ -7,7 +7,7 @@ There is not a lot of information about Haxe and PHP. I decided to do something 
 
 ## How to contribute?
 
-Read more about that [here](contribute.md).  
+Read more about that [here](contribute.md).
 But it boils down to: **JUST DO IT!**
 
 #### Visit [https://github.com/MatthijsKamstra/haxephp](https://github.com/MatthijsKamstra/haxephp) to change the "source" aka markdown files.
@@ -53,7 +53,7 @@ gitbook build
 
 ## NPM build
 
-I created a little script with NPM to make my live somewhat easier:
+I created a little script with NPM to make my life somewhat easier:
 
 ```bash
 npm run gitbook
@@ -85,14 +85,14 @@ Primarily reason for this: I have never used it, it uses markdown as input files
 
 ### What is Markdown
 
-![Markdown logo](img/markdown-logo-200.png)  
-A familiar way to write documentation for developers.  
+![Markdown logo](img/markdown-logo-200.png)
+A familiar way to write documentation for developers.
 This should make it easier to **contribute**!
 
 **Markdown** is a plain text formatting syntax created by John Gruber, aiming to provide a easy-to-read and feasible markup. You can find the original Markdown syntax specification [here](http://daringfireball.net/projects/markdown/syntax).
 
 
-![MacDown logo](img/macdown-logo-200.png)  
+![MacDown logo](img/macdown-logo-200.png)
 **MacDown** is a simple-to-use editor for Markdown documents. It renders your Markdown contents real-time into HTML, and display them in a preview panel. You can download it [here](http://macdown.uranusjr.com/).
 
 
