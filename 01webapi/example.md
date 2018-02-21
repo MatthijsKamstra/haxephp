@@ -68,7 +68,7 @@ These arguments can also be placed into a text file of one per line with the ext
 ```
 
 
-## Build js with Haxe
+## Build PHP with Haxe
 
 To finish and see what we have, build the file and see the result
 
