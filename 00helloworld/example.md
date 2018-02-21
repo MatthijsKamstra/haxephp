@@ -89,5 +89,3 @@ You could build everything directly in the terminal.
 haxe -cp src -main Main -php bin/www -dce full
 ```
 
-It will have the same result
-
