@@ -84,9 +84,5 @@ You could build everything directly in the terminal.
 haxe -cp src -main Main -php bin/www -dce full
 ```
 
-It will have the same result
-
-
-
-And visit <http://localhost/?name=Haxe> (assuming that your webserver is pointing at the generated folder `www`). It will display the request parameters for the URL that were sent by the browser. So you must try <http://localhost/> just to see the difference!
+Visit <http://localhost/?name=Haxe> (assuming that your webserver is pointing at the generated folder `www`). It will display the request parameters for the URL that were sent by the browser. So you must try <http://localhost/> just to see the difference!
 
