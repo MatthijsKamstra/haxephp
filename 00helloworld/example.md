@@ -1,4 +1,4 @@
-#Hello World Example
+# Hello World Example
 
 Check the [code folder](https://github.com/MatthijsKamstra/haxephp/tree/master/00helloworld/code) for more comments.
 
@@ -15,7 +15,7 @@ See example below:
 
 ## The Main.hx
 
-Open your favorite editor, copy/paste the code and save it in the `src` folder. 
+Open your favorite editor, copy/paste the code and save it in the `src` folder.
 
 ```haxe
 package;
