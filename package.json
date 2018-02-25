@@ -10,7 +10,7 @@
     "build:remove:book": "rm -rf _book",
     "build:rename": "mv _book docs",
     "deploy": "npm run build && npm run git:commit && npm run git:push",
-    "git:commit": "git add -A . && git commit -a -m 'update docs haxejs documentation'",
+    "git:commit": "git add -A . && git commit -a -m 'update docs haxephp documentation'",
     "git:push": "git push",
     "gitbook": "npm run gitbook:install && npm run gitbook:update",
     "gitbook:install": "gitbook install",
