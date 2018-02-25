@@ -137,7 +137,7 @@ These arguments can also be placed into a text file of one per line with the ext
 ```
 
 
-## Build js with Haxe
+## Build PHP with Haxe
 
 To finish and see what we have, build the file and see the result
 
@@ -152,8 +152,6 @@ You could build everything directly in the terminal.
 ```
 haxe -cp src -main Main -php bin/www -dce full
 ```
-
-It will have the same result
 
 
 

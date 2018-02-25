@@ -1,4 +1,4 @@
-# Example WebAPI 1
+# Example Forms
 
 Check the [code folder](https://github.com/MatthijsKamstra/haxephp/tree/master/05forms/code) for more comments.
 
@@ -82,7 +82,7 @@ These arguments can also be placed into a text file of one per line with the ext
 ```
 
 
-## Build js with Haxe
+## Build PHP with Haxe
 
 To finish and see what we have, build the file and see the result
 
@@ -103,9 +103,5 @@ You could build everything directly in the terminal.
 haxe -cp src -main Main -php bin/www -dce full
 ```
 
-It will have the same result
-
-
-
-And visit <http://localhost/?name=Haxe> (assuming that your webserver is pointing at the generated folder `www`). It will display the request parameters for the URL that were sent by the browser. So you must try <http://localhost/> just to see the difference!
+Visit <http://localhost/?name=Haxe> (assuming that your webserver is pointing at the generated folder `www`). It will display the request parameters for the URL that were sent by the browser. So you must try <http://localhost/> just to see the difference!
 
