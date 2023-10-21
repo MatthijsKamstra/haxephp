@@ -32,16 +32,16 @@ JSON values can be:
 - An object (in curly braces)
 - A null
 
-```
+```json
 {
-	"number" : 0,
-	"string" : "foobar",
-	"bool" : true,
-	"array" : ["one","two"],
-	"object" : {
-		"firstName":"John",
-		"lastName":"Doe"
-	},
-	"null" : null
+  "number": 0,
+  "string": "foobar",
+  "bool": true,
+  "array": ["one", "two"],
+  "object": {
+    "firstName": "John",
+    "lastName": "Doe"
+  },
+  "null": null
 }
 ```
