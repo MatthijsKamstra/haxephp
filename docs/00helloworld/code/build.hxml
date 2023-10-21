@@ -1,23 +1,26 @@
-# integrate files to classpath
--cp src
+-cmd echo "  ├─┬ Start building targets"
 
-# this class wil be used as entry point for your app.
--main Main
+-cmd echo "  │ ├── cpp"
+-cmd haxe build_cpp.hxml
+-cmd echo "  │ ├── cs"
+-cmd haxe build_cs.hxml
+# -cmd echo "  │ ├── hl"
+# -cmd haxe build_hl.hxml
+-cmd echo "  │ ├── interp (Eval)"
+-cmd haxe build_interp.hxml
+-cmd echo "  │ ├── java"
+-cmd haxe build_java.hxml
+-cmd echo "  │ ├── lua"
+-cmd haxe build_lua.hxml
+-cmd echo "  │ ├── jvm"
+-cmd haxe build_jvm.hxml
+-cmd echo "  │ ├── neko"
+-cmd haxe build_neko.hxml
+-cmd echo "  │ ├── node"
+-cmd haxe build_node.hxml
+-cmd echo "  │ ├── php"
+-cmd haxe build_php.hxml
+-cmd echo "  │ ├── python"
+-cmd haxe build_python.hxml
 
-# PHP target
--php bin/www
-
-# You can use -D source-map-content (requires Haxe 3.1+) to have the .hx 
-# files directly embedded into the map file, this way you only have to 
-# upload it, and it will be always in sync with the compiled .js even if 
-# you modify your .hx files.
-# -D source-map-content
-
-# Generate source map and add debug information
-# -debug
-
-# dead code elimination : remove unused code
-# "-dce no" : do not remove unused code
-# "-dce std" : remove unused code in the std lib (default)
-# "-dce full" : remove all unused code
--dce full
+-cmd echo "  └── Finished building targets"
