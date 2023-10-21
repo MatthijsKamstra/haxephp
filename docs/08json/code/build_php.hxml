@@ -6,3 +6,5 @@
 -D no-deprecation-warnings
 
 
+# users.json file
+-cmd cp -R src/assets/users.json bin/php

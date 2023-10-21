@@ -6,9 +6,12 @@
 
 --next
 
+# users.json file
+-cmd cp -R src/assets/users.json bin/neko
+
 # run application
 -cmd cd bin/neko
 # -cmd nekotools boot bin/index.n
 -cmd neko index.n
--cmd echo "open http://localhost:2000/?name=Haxe to test this code"
+-cmd echo "open http://localhost:2000/ to test this code"
 -cmd nekotools server -rewrite

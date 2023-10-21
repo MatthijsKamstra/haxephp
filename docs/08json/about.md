@@ -44,6 +44,4 @@ JSON values can be:
 	},
 	"null" : null
 }
-
-
 ```
