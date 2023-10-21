@@ -1,4 +1,4 @@
-package ; 
+package;
 
 #if php
 import php.Lib;
@@ -11,10 +11,8 @@ import neko.Web;
 /**
  * @author Matthijs Kamstra aka [mck]
  */
-class Main
-{
-	function new()
-	{
+class Main {
+	function new() {
 		trace("Example Forms<br>");
 
 		var params = Web.getParams();
@@ -24,23 +22,20 @@ class Main
 		// If no data has been submitted by the user (i.e., they are
 		// just arriving at the web page), print the HTML form:
 
-		if ((nm == "none") && (password == "none")) 
-		{
-			Lib.print ('
-				<FORM METHOD="post" ACTION="./index.php">
+		if ((nm == "none") && (password == "none")) {
+			Lib.print('
+				<FORM METHOD="post" ACTION="./">
 					Name:  <INPUT TYPE="TEXT" NAME="name" SIZE="25">
 					Password:  <INPUT TYPE="TEXT" NAME="password" SIZE="25">
 					<INPUT TYPE="SUBMIT" NAME="Submit" VALUE="Submit">
 				</FORM>
 			');
-
 		} else {
-			Lib.print ('Welcome: $nm, with password: $password');
+			Lib.print('Welcome: $nm, with password: $password');
 		}
 	}
 
-	static public function main()
-	{
+	static public function main() {
 		var main = new Main();
 	}
 }
