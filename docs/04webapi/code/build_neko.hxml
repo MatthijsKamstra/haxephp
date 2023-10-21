@@ -5,6 +5,7 @@
 -neko bin/neko/index.n
 # -debug
 -dce full
+-D no-deprecation-warnings
 
 # template
 -resource src/assets/bootstrap_basic.mtt@bootstrap_basic
