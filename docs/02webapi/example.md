@@ -25,7 +25,7 @@ See example below:
 
 Open your favorite editor, copy/paste the code and save it in the `src` folder.
 
-```
+```haxe
 package ;
 
 import php.Lib;
@@ -50,7 +50,7 @@ class Main
 
 Create a class with the name `ViewManager.hx` beside the `Main.hx`
 
-```
+```haxe
 package ;
 
 import view.*;
@@ -76,7 +76,7 @@ class ViewManager
 And create `HomeView.hx`, `AboutView.hx` and `ContactView.hx` in a folder called `view`.
 The class will look simular like this `HomeView` (check the example [code folder](https://github.com/MatthijsKamstra/haxephp/tree/master/02webapi/code))
 
-```
+```haxe
 package view;
 
 class HomeView
@@ -100,7 +100,7 @@ class HomeView
 There are a lot of different arguments that you are able to pass to the Haxe compiler.
 These arguments can also be placed into a text file of one per line with the extension hxml. This file can then be passed directly to the Haxe compiler as a build script.
 
-```
+```bash
 # // build.hxml
 -cp src
 -main Main
@@ -119,7 +119,7 @@ To finish and see what we have, build the file and see the result
 
 You could build everything directly in the terminal.
 
-```
+```bash
 haxe -cp src -main Main -php bin/www -dce full
 ```
 

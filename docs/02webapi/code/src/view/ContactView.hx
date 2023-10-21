@@ -1,5 +1,13 @@
 package view;
 
+#if php
+import php.Lib;
+import php.Web;
+#elseif neko
+import neko.Lib;
+import neko.Web;
+#end
+
 class ContactView {
 	public function new() {
 		var output = '<h1>Contact</h1>
@@ -8,6 +16,6 @@ class ContactView {
 		<li><a href="?state=about">About</a></li>
 		<li><a href="?state=contact">Contact</a></li>
 	</ul>';
-		php.Lib.print(output);
+		Lib.print(output);
 	}
 }

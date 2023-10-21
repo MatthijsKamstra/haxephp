@@ -13,7 +13,7 @@ import neko.Web;
  */
 class Main {
 	function new() {
-		var params = php.Web.getParams();
+		var params = Web.getParams();
 		var state = params.exists('state') ? params.get('state') : 'home';
 
 		new ViewManager(state);
