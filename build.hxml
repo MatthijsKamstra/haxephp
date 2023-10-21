@@ -29,12 +29,12 @@ build.hxml
 build.hxml
 -cmd echo "│ ├── 02web_views/code"
 
-# 03webapi
+# 03web_templates
 -cmd cd ../../
--cmd cd 03webapi/code/
+-cmd cd 03web_templates/code/
 --next
 build.hxml
--cmd echo "│ ├── 03webapi/code"
+-cmd echo "│ ├── 03web_templates/code"
 
 # 04webapi
 -cmd cd ../../

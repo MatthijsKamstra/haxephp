@@ -1,13 +1,13 @@
 # Example WebAPI 4
 
-Check the [code folder](https://github.com/MatthijsKamstra/haxephp/tree/master/03webapi/code) for more comments.
+Check the [code folder](https://github.com/MatthijsKamstra/haxephp/tree/master/03web_templates/code) for more comments.
 
 Now we will use `.htaccess` on the server to get 'pritty print url'
 And use the [Web Dispatcher](http://haxe.org/manual/dispatch), read more [Haxe api](http://api.haxe.org/haxe/web/Dispatch.html)
 
 _Read more about this [here](about.md)_
 
-_The code used in this example can be found [here](https://github.com/MatthijsKamstra/haxephp/tree/master/03webapi/code)._
+_The code used in this example can be found [here](https://github.com/MatthijsKamstra/haxephp/tree/master/03web_templates/code)._
 
 ## How to start
 

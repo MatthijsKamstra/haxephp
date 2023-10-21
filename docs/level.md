@@ -32,7 +32,7 @@ To get you start I have a little chapter about [learning Haxe](haxe/learn-haxe.m
 
 **A basic knowledge of the topic but no regular professional usage**
 
-- [Example webapi 3](03webapi/about.md)
+- [Example webapi 3](03web_templates/about.md)
 - [Example NASA](06nasa/about.md)
 - [Example Json](08json/about.md)
 
