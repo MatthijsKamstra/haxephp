@@ -36,17 +36,17 @@ The next code wil do that following
 - and write it down
 - output the json
 
-```
-	var json : CounterData = utils.Read.json('_data','test');
-	if(json == null){
-		json = {update: Date.now(), created: Date.now(), counter: 0};
-	} else {
-		var _counter = json.counter + 1;
-		var _created : Date = json.created;
-		json = {update: Date.now(), created: _created, counter: _counter};
-	}
-	utils.Write.json('_data','test',json);
-	Lib.print(json);
+```haxe
+var json : CounterData = utils.Read.json('_data','test');
+if(json == null){
+	json = {update: Date.now(), created: Date.now(), counter: 0};
+} else {
+	var _counter = json.counter + 1;
+	var _created : Date = json.created;
+	json = {update: Date.now(), created: _created, counter: _counter};
+}
+utils.Write.json('_data','test',json);
+Lib.print(json);
 ```
 
 In the folder `utils` you will find a `Read.hx`
@@ -57,9 +57,8 @@ It has a static function `json` that will read the file (if it exists)
   - parse it to json
 - `else` if will return null
 
-```
-public static function json(folderName:String, fileName:String) : Dynamic
-{
+```haxe
+public static function json(folderName:String, fileName:String) : Dynamic {
 	var _path = Sys.getCwd() + '/$folderName/';
 	var _filePath = _path + "" + fileName + ".json";
 	var json:Dynamic;
@@ -80,9 +79,8 @@ It has a static function `json` which writes the file to the system
 - check if the creation of the folder worked
 - write the file
 
-```
-public static function json(folderName:String, fileName:String, data:Dynamic) : Void
-{
+```haxe
+public static function json(folderName:String, fileName:String, data:Dynamic) : Void {
 	var _path = Sys.getCwd() + '/$folderName/';
 	if(! sys.FileSystem.exists( _path ) ){
 		sys.FileSystem.createDirectory( _path );
@@ -107,14 +105,12 @@ To make that easier I use [`typedef`](http://haxe.org/manual/type-system-typedef
 
 We convert the json data to `CounterData` so when we use a IDE it will use autocompletion
 
-```
-typedef CounterData =
-{
+```haxe
+typedef CounterData = {
 	var update : Date;
 	var created : Date;
 	var counter : Int;
 }
-
 ```
 
 ## The Haxe build file, build.hxml
@@ -122,7 +118,7 @@ typedef CounterData =
 There are a lot of different arguments that you are able to pass to the Haxe compiler.
 These arguments can also be placed into a text file of one per line with the extension hxml. This file can then be passed directly to the Haxe compiler as a build script.
 
-```
+```bash
 # // build.hxml
 -cp src
 -main Main
@@ -141,6 +137,6 @@ To finish and see what we have, build the file and see the result
 
 You could build everything directly in the terminal.
 
-```
+```bash
 haxe -cp src -main Main -php bin/www -dce full
 ```
