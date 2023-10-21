@@ -1,10 +1,10 @@
 -cmd echo "  ├─┬ Start building targets"
 
--cmd echo "  │ ├── neko"
--cmd haxe build_neko.hxml
 -cmd echo "  │ ├── php"
 -cmd haxe build_php.hxml
 -cmd echo "  │ ├── php 2"
 -cmd haxe build_php_2.hxml
+-cmd echo "  │ ├── neko"
+-cmd haxe build_neko.hxml
 
 -cmd echo "  └── Finished building targets"

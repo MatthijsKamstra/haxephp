@@ -1,8 +1,13 @@
+--library hx3compat
+
 -cp src
 -main Main
 -neko bin/neko/index.n
 # -debug
 -dce full
+
+# template
+-resource src/assets/bootstrap_basic.mtt@bootstrap_basic
 
 --next
 
@@ -10,5 +15,5 @@
 -cmd cd bin/neko
 # -cmd nekotools boot bin/index.n
 -cmd neko index.n
--cmd echo "open http://localhost:2000/?name=Haxe to test this code"
+-cmd echo "open http://localhost:2000/ to test this code"
 -cmd nekotools server -rewrite

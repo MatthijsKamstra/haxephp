@@ -5,10 +5,9 @@ Check the [code folder](https://github.com/MatthijsKamstra/haxephp/tree/master/0
 Now we will use `.htaccess` on the server to get 'pritty print url'
 And use the [Web Dispatcher](http://haxe.org/manual/dispatch), read more [Haxe api](http://api.haxe.org/haxe/web/Dispatch.html)
 
-*Read more about this [here](about.md)*
+_Read more about this [here](about.md)_
 
 _The code used in this example can be found [here](https://github.com/MatthijsKamstra/haxephp/tree/master/03webapi/code)._
-
 
 ## How to start
 
@@ -22,7 +21,6 @@ See example below:
 		- Main.hx
 	- build.hxml
 ```
-
 
 ## The Main.hx
 
@@ -56,10 +54,8 @@ class Main
 
 ```
 
-
 The `Routes.hx` files is the Web Dispatcher class:
 This example shows what will happen when the url is <http://localhost/> and <http://localhost/home/>
-
 
 ```
 	function doDefault( d:Dispatch )
@@ -75,17 +71,15 @@ This example shows what will happen when the url is <http://localhost/> and <htt
 
 ```
 
-
 And a little adjustment in the Template:
 
 ```
 <li class="::if (title == "About")::active::else::inactive::end::"><a href="/about">About</a></li>
 ```
+
 This is used to set the class of the `<li>` on `active` or `inactive`
 
-
 Check for more Template examples: <http://haxe.org/manual/std-template.html>
-
 
 The `build.hxml` also gets a little addition:
 
@@ -95,8 +89,6 @@ The `build.hxml` also gets a little addition:
 ```
 
 This way you can change the assets, and use the build file to update the export folder!
-
-
 
 ## The Haxe build file, build.hxml
 
@@ -111,7 +103,6 @@ These arguments can also be placed into a text file of one per line with the ext
 -dce full
 ```
 
-
 ## Build PHP with Haxe
 
 To finish and see what we have, build the file and see the result
@@ -121,13 +112,10 @@ To finish and see what we have, build the file and see the result
 3. type `haxe build.hxml`
 4. press enter
 
-
 You could build everything directly in the terminal.
 
 ```
 haxe -cp src -main Main -php bin/www -dce full
 ```
 
-
 Visit <http://localhost/> (assuming that your webserver is pointing at the generated folder `www`). It will display the request parameters for the URL that were sent by the browser.
-

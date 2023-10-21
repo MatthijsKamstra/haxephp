@@ -1,3 +1,5 @@
+--library hx3compat
+
 -cp src
 -main Main
 -php bin/php
@@ -5,4 +7,8 @@
 -dce full
 -D no-deprecation-warnings
 
+# template
+-resource src/assets/bootstrap_basic.mtt@bootstrap_basic
 
+# htaccess file
+-cmd cp -R src/assets/.htaccess bin/php
