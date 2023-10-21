@@ -7,8 +7,6 @@ Check the [code folder](https://github.com/MatthijsKamstra/haxephp/tree/master/0
 
 In this example we are going to read and use a `.json` file.
 
-
-
 ## How to start
 
 Create a folder named **foobar** (please use a better name; any name will do) and create folders **bin** and **src**.
@@ -22,22 +20,19 @@ See example below:
 	- build.hxml
 ```
 
-
-
 ## The Main.hx
 
 This example is getting to big to post here, so if you want to check out the complete file go and check out [Main.hx](https://github.com/MatthijsKamstra/haxephp/tree/master/09flatfile/code/Main.hx)
-
 
 The next code wil do that following
 
 - load the data
 - `if` the data == null
-	- generate a json with current date
+  - generate a json with current date
 - `else` use the loaded data to
-	- keep the created date the same
-	- change the update
-	- and `+1` the counter
+  - keep the created date the same
+  - change the update
+  - and `+1` the counter
 - and write it down
 - output the json
 
@@ -58,8 +53,8 @@ In the folder `utils` you will find a `Read.hx`
 It has a static function `json` that will read the file (if it exists)
 
 - it will check `if` the file exists
-	- get the content of that file
-	- parse it to json
+  - get the content of that file
+  - parse it to json
 - `else` if will return null
 
 ```
@@ -81,7 +76,7 @@ In that same folder folder `utils` you will find a `Write.hx`
 It has a static function `json` which writes the file to the system
 
 - it will check `if` the folder exists
-	- if not create the folder
+  - if not create the folder
 - check if the creation of the folder worked
 - write the file
 
@@ -122,7 +117,6 @@ typedef CounterData =
 
 ```
 
-
 ## The Haxe build file, build.hxml
 
 There are a lot of different arguments that you are able to pass to the Haxe compiler.
@@ -136,7 +130,6 @@ These arguments can also be placed into a text file of one per line with the ext
 -dce full
 ```
 
-
 ## Build PHP with Haxe
 
 To finish and see what we have, build the file and see the result
@@ -146,12 +139,8 @@ To finish and see what we have, build the file and see the result
 3. Type `haxe build.hxml`
 4. Press enter
 
-
 You could build everything directly in the terminal.
 
 ```
 haxe -cp src -main Main -php bin/www -dce full
 ```
-
-
-

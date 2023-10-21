@@ -6,19 +6,15 @@ The previous example is a lite databases. We now move over to MySQL, the PHP dat
 
 > MySQL is the world's most popular open source database. Whether you are a fast growing web property, technology ISV or large enterprise, MySQL can cost-effectively help you deliver high performance, scalable database applications.
 
-__Source: <https://www.mysql.com/>__
-
+**Source: <https://www.mysql.com/>**
 
 Or (because it's the first place you look for information):
 
 > MySQL is an open-source relational database management system (RDBMS);[6] in July 2013, it was the world's second most[a] widely used RDBMS, and the most widely used open-source client–server model RDBMS.[9]
 
-
-__Source: <https://en.wikipedia.org/wiki/MySQL>__
-
+**Source: <https://en.wikipedia.org/wiki/MySQL>**
 
 ## SPOD Macros
-
 
 **We use SPOD Macros for this, same as for SQLite **
 
@@ -29,12 +25,10 @@ But first, let's explain what SPOD is doing. With SPOD, you can define some Clas
 
 > The new SPOD Macros library is a replacement of the previous neko/php SPOD. The major enhancement in this version is that it is based on Macros, making it possible to write Haxe expressions directly instead of SQL, while keeping type-safety.
 
-
 <https://github.com/HaxeFoundation/record-macros>
 
 ```bash
 haxelib install build.hxml
 ```
-
 
 <http://old.haxe.org/manual/spod>

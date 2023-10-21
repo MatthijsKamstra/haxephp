@@ -6,9 +6,7 @@ Almost all website running on PHP use MySQL.
 We will be using [SPOD macros](http://old.haxe.org/manual/spod).
 Check more info in the [about](about.md).
 
-
 _The code used in this example is [here](https://github.com/MatthijsKamstra/haxephp/tree/master/11mysql/code)._
-
 
 ## How to start
 
@@ -23,12 +21,9 @@ See example below:
 	- build.hxml
 ```
 
-
-
 ## The Main.hx
 
 This example is getting to big to post here, so if you want to check out the complete file go and check out [Main.hx](https://github.com/MatthijsKamstra/haxephp/tree/master/11mysql/code/Main.hx)
-
 
 First we need a database, so I wrote a class that creates one for you: `DBStart.hx`.
 This class generates random users.
@@ -74,6 +69,7 @@ This class generates random users.
 	cnx.close();
 
 ```
+
 The function `createRandomUser()` does what you would expect, if you want to know, check the source code.
 
 A user!
@@ -148,8 +144,6 @@ Now we have a database, lets check out the code to get the data from the databas
 	cnx.close();
 ```
 
-
-
 ## The Haxe build file, build.hxml
 
 There are a lot of different arguments that you are able to pass to the Haxe compiler.
@@ -163,7 +157,6 @@ Set these arguments into a text file of one per line with the extension hxml. Th
 -dce full
 ```
 
-
 ## Build PHP with Haxe
 
 To finish and see what we have, build the file and see the result
@@ -173,11 +166,9 @@ To finish and see what we have, build the file and see the result
 3. Type `haxe build.hxml`
 4. Press enter
 
-
 And if everything went according to plan, you should see something similar like this:
 
 ![](screenshot.png)
-
 
 You could build everything directly in the terminal.
 
@@ -187,14 +178,8 @@ haxe -cp src -main Main -php bin/www -dce full
 
 It will have the same result
 
-
-
-
 ## More info
 
 - <http://api.haxe.org/sys/db/Sqlite.html>
 - <http://old.haxe.org/doc/neko/spod>
 - <http://old.haxe.org/manual/spod>
-
-
-

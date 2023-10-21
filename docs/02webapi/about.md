@@ -11,8 +11,6 @@ This will use the `php.Lib.print` function that prints some raw string (without 
 There is also a lot of useful functionality available in the Web class.
 Read up on that here: [http://api.haxe.org/php/Web.html](http://api.haxe.org/php/Web.html)
 
-
-__Note that the `php` package tries to mimic as far as possible the `neko` one. This allows for easy switching between the two platforms__
-
+**Note that the `php` package tries to mimic as far as possible the `neko` one. This allows for easy switching between the two platforms**
 
 Source: <http://old.haxe.org/doc/start/php#web-api>

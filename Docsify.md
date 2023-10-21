@@ -25,16 +25,14 @@ npm  i docsify-cli -g
 Specific for my documentation:
 
 - copy `readme.md` to docs
-- copy `.nojekyll` to docs  (if not generated)
+- copy `.nojekyll` to docs (if not generated)
 - copy `index.html` to docs (if not generated)
 - copy `favicon.ico` to docs
 - update `index.html` the js: `window.$docsify`
 - copy data from `book.json` to `window.$docsify`
 - change `_sidebar.md` "example" to example
-- change `_sidebar.md`  "How to" to "More info"
+- change `_sidebar.md` "How to" to "More info"
 - convert path to code
-
-
 
 ## Resource
 

@@ -1,9 +1,7 @@
 package view;
 
-class ContactView 
-{
-	public function new() 
-	{
+class ContactView {
+	public function new() {
 		var output = '<h1>Contact</h1>
 	<ul>
 		<li><a href="?state=home">Home</a></li>

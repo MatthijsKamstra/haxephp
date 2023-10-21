@@ -2,18 +2,16 @@
 
 Already the fourth example in the webapi series!
 
-I try to build upon the previous webapi examples. If the [`example.md`](example.md) misses something, make sure to check out the previous webapi examples 
-
+I try to build upon the previous webapi examples. If the [`example.md`](example.md) misses something, make sure to check out the previous webapi examples
 
 Now we will use `.htaccess` on the server to get 'pritty print url'
 And use the [Web Dispatcher](http://haxe.org/manual/dispatch), read more [Haxe api](http://api.haxe.org/haxe/web/Dispatch.html)
-
 
 This example will look the same as the previous example, with a little deference: the url!
 
 <http://localhost/home> instead of <http://localhost/?state=home>
 
-## About 
+## About
 
 In any website, it is necessary to be able to transform a given URL (such as /user/view) and GET/POST parameters (such as userId=10&edit=1) into the corresponding function call that will process the request and its parameters.
 
@@ -24,8 +22,6 @@ A typical website application will do (for each request) :
 - Dispatch the request (call the method)
 - Print result
 - Cleanup
-
-
 
 # More info
 

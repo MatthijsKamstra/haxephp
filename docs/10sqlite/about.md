@@ -7,8 +7,7 @@ An SQLite database is a database but the lite version. It's the local database f
 
 > SQLite is a software library that implements a self-contained, serverless, zero-configuration, transactional SQL database engine. SQLite is the most widely deployed database engine in the world. The source code for SQLite is in the public domain.
 
-__source: <https://www.sqlite.org/>__
-
+**source: <https://www.sqlite.org/>**
 
 Or (because it's the first place you look for information):
 
@@ -18,9 +17,7 @@ Or (because it's the first place you look for information):
 >
 > SQLite is a popular choice as embedded database software for local/client storage in application software such as web browsers. It is arguably the most widely deployed database engine, as it is used today by several widespread browsers, operating systems, and embedded systems, among others.[6] SQLite has bindings to many programming languages.
 
-
-__Source: <https://en.wikipedia.org/wiki/SQLite>__
-
+**Source: <https://en.wikipedia.org/wiki/SQLite>**
 
 ## SPOD Macros
 
@@ -30,7 +27,6 @@ Starting from Haxe 2.08 , a new version of SPOD called SPOD Macros is available.
 But first, let's explain what SPOD is doing. With SPOD, you can define some Classes that will map to your database tables. You can then manipulate tables like objects, by simply modifying the table fields and calling a method to update the datas or delete the entry. For most of the standard stuff, you only need to provide some basic declarations and you don't have to write one single SQL statement. You can later extend SPOD by adding your own SQL requests for some application-specific stuff.
 
 > The new SPOD Macros library is a replacement of the previous neko/php SPOD. The major enhancement in this version is that it is based on Macros, making it possible to write Haxe expressions directly instead of SQL, while keeping type-safety.
-
 
 <http://old.haxe.org/manual/spod>
 
