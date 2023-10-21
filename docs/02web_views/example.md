@@ -1,12 +1,12 @@
 # Example WebAPI 2
 
-Check the [code folder](https://github.com/MatthijsKamstra/haxephp/tree/master/02webapi/code) for more comments.
+Check the [code folder](https://github.com/MatthijsKamstra/haxephp/tree/master/02web_views/code) for more comments.
 
 So far we've been only using the Haxe Generic API, available for all platforms. Now let's look at the ServerSide specific API, which is located in the package `php`.
 
 _Read more about this [here](about.md)_
 
-_The code used in this example can be found [here](https://github.com/MatthijsKamstra/haxephp/tree/master/02webapi/code)._
+_The code used in this example can be found [here](https://github.com/MatthijsKamstra/haxephp/tree/master/02web_views/code)._
 
 ## How to start
 
@@ -74,7 +74,7 @@ class ViewManager
 ```
 
 And create `HomeView.hx`, `AboutView.hx` and `ContactView.hx` in a folder called `view`.
-The class will look simular like this `HomeView` (check the example [code folder](https://github.com/MatthijsKamstra/haxephp/tree/master/02webapi/code))
+The class will look simular like this `HomeView` (check the example [code folder](https://github.com/MatthijsKamstra/haxephp/tree/master/02web_views/code))
 
 ```haxe
 package view;

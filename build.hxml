@@ -22,12 +22,12 @@ build.hxml
 build.hxml
 -cmd echo "│ ├── 01web_querystring/code"
 
-# 02webapi
+# 02web_views
 -cmd cd ../../
--cmd cd 02webapi/code/
+-cmd cd 02web_views/code/
 --next
 build.hxml
--cmd echo "│ ├── 02webapi/code"
+-cmd echo "│ ├── 02web_views/code"
 
 # 03webapi
 -cmd cd ../../
