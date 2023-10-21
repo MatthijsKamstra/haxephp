@@ -1,17 +1,8 @@
-#integrate files to classpath
--cp src
+-cmd echo "  ├─┬ Start building targets"
 
-#this class wil be used as entry point for your app.
--main Main
+-cmd echo "  │ ├── neko"
+-cmd haxe build_neko.hxml
+-cmd echo "  │ ├── php"
+-cmd haxe build_php.hxml
 
-#PHP target
--php bin/www
-
-#Generate source map and add debug information
-# -debug
-
-#dead code elimination : remove unused code
-#"-dce no" : do not remove unused code
-#"-dce std" : remove unused code in the std lib (default)
-#"-dce full" : remove all unused code
--dce full
+-cmd echo "  └── Finished building targets"

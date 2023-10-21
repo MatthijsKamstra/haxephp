@@ -10,4 +10,5 @@
 -cmd cd bin/neko
 # -cmd nekotools boot bin/index.n
 -cmd neko index.n
-# -cmd nekotools server -rewrite
+-cmd echo "open http://localhost:2000/?name=Haxe to test this code"
+-cmd nekotools server -rewrite
