@@ -25,7 +25,7 @@ To get you start I have a little chapter about [learning Haxe](haxe/learn-haxe.m
 **A very basic knowledge of the topic but no professional usage**
 
 - [Example Hello World](00helloworld/about.md)
-- [Example webapi 1](01webapi/about.md)
+- [Example webapi 1](01web_querystring/about.md)
 - [Example webapi 2](02webapi/about.md)
 
 ## Intermediate

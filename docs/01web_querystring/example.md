@@ -1,12 +1,12 @@
 # Example WebAPI 1
 
-Check the [code folder](https://github.com/MatthijsKamstra/haxephp/tree/master/01webapi/code) for more comments.
+Check the [code folder](https://github.com/MatthijsKamstra/haxephp/tree/master/01web_querystring/code) for more comments.
 
 So far we've been using the Haxe Generic API, available for all platforms. Now let's look at the ServerSide specific API, which is located in the package php. Change your Index.hx file with the following content :
 
 _Read more about this [here](about.md)_
 
-_The code used in this example can be found [here](https://github.com/MatthijsKamstra/haxephp/tree/master/01webapi/code)._
+_The code used in this example can be found [here](https://github.com/MatthijsKamstra/haxephp/tree/master/01web_querystring/code)._
 
 ## How to start
 

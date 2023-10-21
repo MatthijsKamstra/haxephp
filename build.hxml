@@ -15,12 +15,12 @@ build.hxml
 build.hxml
 -cmd echo "│ ├── 00helloworld/code"
 
-# 01webapi
+# 01web_querystring
 -cmd cd ../../
--cmd cd 01webapi/code/
+-cmd cd 01web_querystring/code/
 --next
 build.hxml
--cmd echo "│ ├── 01webapi/code"
+-cmd echo "│ ├── 01web_querystring/code"
 
 # 02webapi
 -cmd cd ../../
