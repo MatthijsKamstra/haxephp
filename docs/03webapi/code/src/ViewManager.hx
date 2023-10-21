@@ -1,12 +1,9 @@
-package ;
+package;
 
 import view.*;
 
-class ViewManager 
-{
-
-	public function new (state:String) 
-	{
+class ViewManager {
+	public function new(state:String) {
 		switch (state.toLowerCase()) {
 			case "home":
 				new HomeView();
@@ -18,5 +15,4 @@ class ViewManager
 				new HomeView();
 		}
 	}
-
 }
