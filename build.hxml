@@ -36,12 +36,12 @@ build.hxml
 build.hxml
 -cmd echo "│ ├── 03web_templates/code"
 
-# 04webapi
+# 04web_dispatch
 -cmd cd ../../
--cmd cd 04webapi/code/
+-cmd cd 04web_dispatch/code/
 --next
 build.hxml
--cmd echo "│ ├── 04webapi/code"
+-cmd echo "│ ├── 04web_dispatch/code"
 
 # 05forms
 -cmd cd ../../
