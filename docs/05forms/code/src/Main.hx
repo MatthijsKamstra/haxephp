@@ -24,11 +24,11 @@ class Main {
 
 		if ((nm == "none") && (password == "none")) {
 			Lib.print('
-				<FORM METHOD="post" ACTION="./">
-					Name:  <INPUT TYPE="TEXT" NAME="name" SIZE="25">
-					Password:  <INPUT TYPE="TEXT" NAME="password" SIZE="25">
-					<INPUT TYPE="SUBMIT" NAME="Submit" VALUE="Submit">
-				</FORM>
+				<form method="post" action="./">
+					Name:  <input type="text" name="name" size="25">
+					Password:  <input type="text" name="password" size="25">
+					<input type="submit" name="Submit" value="Submit">
+				</form>
 			');
 		} else {
 			Lib.print('Welcome: $nm, with password: $password');

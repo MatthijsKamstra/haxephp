@@ -23,7 +23,7 @@ See example below:
 
 ## The Main.hx
 
-Open your favorite editor, copy/paste the code and save it in the `src` folder. 
+Open your favorite editor, copy/paste the code and save it in the `src` folder.
 Check the complete [Main.hx](https://github.com/MatthijsKamstra/haxephp/tree/master/06nasa/code/src/Main.hx).
 
 This is the most interesting part:
@@ -55,8 +55,6 @@ req.request( false ); // false=GET, true=POST
 
 ```
 
-
-
 ## The Haxe build file, build.hxml
 
 There are a lot of different arguments that you are able to pass to the Haxe compiler.
@@ -70,7 +68,6 @@ These arguments can also be placed into a text file of one per line with the ext
 -dce full
 ```
 
-
 ## Build PHP with Haxe
 
 To finish and see what we have, build the file and see the result
@@ -80,11 +77,8 @@ To finish and see what we have, build the file and see the result
 3. type `haxe build.hxml`
 4. press enter
 
-
 You could build everything directly in the terminal.
 
 ```
 haxe -cp src -main Main -js bin/www -dce full
 ```
-
-
