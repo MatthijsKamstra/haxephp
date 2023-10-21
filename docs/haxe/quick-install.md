@@ -7,13 +7,14 @@ You just want to get started ... right!
 
 Choose your OS:
 
-* [OSX](#osx)
-* [Linux](#linux)
-* [Windows](#windows)
+- [OSX](#osx)
+- [Linux](#linux)
+- [Windows](#windows)
 
-__At the time of writing, the version is Haxe 3.2.1, but don't let that stop you when that has changed__
+**At the time of writing, the version is Haxe 3.2.1, but don't let that stop you when that has changed**
 
 <a name="osx"></a>
+
 # OSX
 
 ## Step 0: You have joined an elite Haxe force!

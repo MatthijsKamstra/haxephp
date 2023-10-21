@@ -2,7 +2,6 @@
 
 ![Haxe logo](../img/haxe_logo.png)
 
-
 Lets get the Wikipedia description first:
 
 > Haxe is an open source high-level multi-platform programming language and compiler that can produce applications and source code for many different platforms from a single code-base.
@@ -11,12 +10,9 @@ Lets get the Wikipedia description first:
 >
 > Code written in the Haxe language can be source-to-source compiled into ActionScript 3 code, JavaScript programs, Java, C# , C++ standalone applications, Python, PHP, Apache CGI, and Node.js server-side applications.
 
+_From [wikipedia](https://en.wikipedia.org/wiki/Haxe)_
 
-*From [wikipedia](https://en.wikipedia.org/wiki/Haxe)*
-
-
-
-----
+---
 
 And the official description:
 
@@ -24,10 +20,9 @@ And the official description:
 >
 > Haxe is strongly typed but the typing system can be subverted where required. Utilizing type information, the Haxe type system can detect errors at compile-time which would only be noticeable at run-time in the target language. Furthermore, type information can be used by the target generators to generate optimized and robust code.
 
+_From [haxe.org - manual](http://haxe.org/manual/introduction-what-is-haxe.html)_
 
-*From [haxe.org - manual](http://haxe.org/manual/introduction-what-is-haxe.html)*
-
------
+---
 
 ## Personal
 
@@ -38,7 +33,7 @@ I was an ActionScript developer, but we can say that language is dead.
 There is a part of me that could rant about that, but it's easier just to say "let move on".
 
 I originally studied to be a graphic designer. But discovered that I could do animation pretty good.
-I started using Flash as an animator and learned how to program in Flash.  Later in a IDE (SE|PY written in Python if I'm not mistaken).
+I started using Flash as an animator and learned how to program in Flash. Later in a IDE (SE|PY written in Python if I'm not mistaken).
 I started to experiment with MTASC (which is the Haxe predecessor) because it compiled faster then Flash did.
 
 Then Nicolas stopped working on MTASC and focused on Haxe. He lost me there, I was to junior-dev to understand what he was doing, and at the time nobody around me was interested in it.
@@ -56,6 +51,7 @@ With Openfl (written on top of Haxe) I can create IOS, Android and html5 applica
 I'm focused on JavaScript and NodeJs for the time being but that could change.
 
 <a name="2ct"></a>
+
 ## [My two cents](https://en.wikipedia.org/wiki/My_two_cents)
 
 My primary reasons to write this documentation is the fact that the focus of Haxe seems to be on games. This may not be a conscious decision. It's not strange because [Nicolas](https://twitter.com/ncannasse) (original creator of Haxe) earns his money with [games](http://shirogames.com/).
@@ -71,6 +67,4 @@ It's shouldn't be difficult to convince JavaScript developers. Especially the on
 But it should be more visible, more prominent and more documented to help you with the transition.
 I hope this documentation will help (a little).
 
-
-
------
+---

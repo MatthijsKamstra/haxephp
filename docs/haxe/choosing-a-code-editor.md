@@ -1,8 +1,5 @@
 # Choosing a Code Editor
 
-
-
-
 Once Haxe has been [installed](installation.md) (yes you should do that first!). It is helpful to choose an integrated development environment (IDE), with good support for Haxe and OpenFL development.
 
 Although you can write code using even a simple text editor.
@@ -35,7 +32,6 @@ HaxeDevelop is free and open-source.
 
 [Visual Studio Code](https://code.visualstudio.com/) Build and debug modern web and cloud applications. Code is free and available on your favourite platform - Linux, Mac OSX, and Windows.
 
-
 ## Sublime Text
 
 ![](http://www.sublimetext.com/screenshots/alpha_ui_large.png)
@@ -60,48 +56,28 @@ Sublime Text is free-to-use, with reminders to pay for continued use.
 
 > Atom is a text editor that's modern, approachable, yet hackable to the core—a tool you can customise to do anything but also use productively without ever touching a config file.
 
-
-
 ## Brackets
 
 ![](https://raw.githubusercontent.com/Brackets-Themes/80sBaby/master/screenshots/css.png)
 
 [Brackets](http://brackets.io/) is a lightweight, yet powerful, modern text editor. We blend visual tools into the editor so you get the right amount of help when you want it.
 
-
-
-
-
-
-
 ## Other Choices
 
 There are other code editors to choose from, include vim and up-and-coming Haxe-based editors. You can read more at [http://haxe.org/documentation/introduction/editors-and-ides.html](http://haxe.org/documentation/introduction/editors-and-ides.html)
 
-
-
-
-
-
 ## Summary
 
-| Name | Platform | Price | License | Plugin |
-| ---- | ---- | ---- | ---- | ---- | ---- |
-| HaxeDevelop | Windows`*` | Free | Open Source | |
-| VSCode | Windows, Mac, Linux | Free | MIT | [Haxe Extension Pack ](https://marketplace.visualstudio.com/items?itemName=vshaxe.haxe-extension-pack) |
-| Sublime Text | Windows, Mac, Linux | Free-to-use`**` |Commercial | [haxe-sublime2-bundle](https://github.com/clemos/haxe-sublime2-bundle) |
-| IntelliJ IDEA | Windows, Mac, Linux | Free | Apache License 2.0 | [Haxe Support](http://plugins.jetbrains.com/plugin/6873?pr=idea) |
-| Atom | Windows, Mac, Linux, FreeBSD | Free | Open Source | [language-haxe](https://atom.io/packages/language-haxe) |
-| Bracket | Windows, Mac, Linux | Free | ? | [haxe-brackets-extension](https://github.com/jasononeil/haxe-brackets-extension)|
-
+| Name          | Platform                     | Price           | License            | Plugin                                                                                                 |
+| ------------- | ---------------------------- | --------------- | ------------------ | ------------------------------------------------------------------------------------------------------ |
+| HaxeDevelop   | Windows`*`                   | Free            | Open Source        |                                                                                                        |
+| VSCode        | Windows, Mac, Linux          | Free            | MIT                | [Haxe Extension Pack ](https://marketplace.visualstudio.com/items?itemName=vshaxe.haxe-extension-pack) |
+| Sublime Text  | Windows, Mac, Linux          | Free-to-use`**` | Commercial         | [haxe-sublime2-bundle](https://github.com/clemos/haxe-sublime2-bundle)                                 |
+| IntelliJ IDEA | Windows, Mac, Linux          | Free            | Apache License 2.0 | [Haxe Support](http://plugins.jetbrains.com/plugin/6873?pr=idea)                                       |
+| Atom          | Windows, Mac, Linux, FreeBSD | Free            | Open Source        | [language-haxe](https://atom.io/packages/language-haxe)                                                |
+| Bracket       | Windows, Mac, Linux          | Free            | ?                  | [haxe-brackets-extension](https://github.com/jasononeil/haxe-brackets-extension)                       |
 
 `*` there is a way to get it partially working on Mac, but I failed.
 `**` it will ask you to pay for a license
 
-
-
-
-
-
-
-*Some of this information is directly from [Openfl documentation](http://www.openfl.org/learn/resources/choosing-a-code-editor/)*
+_Some of this information is directly from [Openfl documentation](http://www.openfl.org/learn/resources/choosing-a-code-editor/)_

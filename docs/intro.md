@@ -16,13 +16,12 @@ How to setup your project, install externs and how to work with them. This proba
 
 For clever, cool and handsome developers. Duh! :D
 
-* Probably for PHP developers who already started with Haxe.
-* PHP developers who write more then a half a dozen classes.
-* Flash-developers looking for an AS3 replacement
-* Flash-developers starting with PHP
-* Freelance developers working with PHP
-* Small developers teams working on big projects
-
+- Probably for PHP developers who already started with Haxe.
+- PHP developers who write more then a half a dozen classes.
+- Flash-developers looking for an AS3 replacement
+- Flash-developers starting with PHP
+- Freelance developers working with PHP
+- Small developers teams working on big projects
 
 ## Documentation goals
 
@@ -32,7 +31,6 @@ And this documentation hosted on Github, developers favorite place to store code
 Even if you are not a developer. Don't want to clone everything, you still can change the files on the website (you need account to login in and change the `.md` files).
 And as a final resort, you can leave your comments/suggestions/etc at the bottom of the page via Disqus.
 
-
 ## Open-sourcing the documentation
 
 I thought I was the first to try to write documentation and open-sourcing it this way, but other beat me.
@@ -40,13 +38,12 @@ Although I was already writing everything with markdown, it looked like a good i
 
 **Other clever developers who had this idea before me:**
 
-* [babylon js open sourcing the documentation](http://blogs.msdn.com/b/eternalcoding/archive/2015/08/11/babylon-js-open-sourcing-the-documentation.aspx)
-* [building markdown based developer docs](https://medium.com/code-stories/building-markdown-based-developer-docs-87c0317c56f7)
-
+- [babylon js open sourcing the documentation](http://blogs.msdn.com/b/eternalcoding/archive/2015/08/11/babylon-js-open-sourcing-the-documentation.aspx)
+- [building markdown based developer docs](https://medium.com/code-stories/building-markdown-based-developer-docs-87c0317c56f7)
 
 **Other resources about writing documentation (Markdown)**
 
-* [13-things-people-hate-about-your-open-source-docs/](http://blog.smartbear.com/careers/13-things-people-hate-about-your-open-source-docs/)
-* <https://github.com/PharkMillups/beautiful-docs>
-* <https://github.com/karthik/markdown_science/wiki/Tools-to-support-your-markdown-authoring>
-* <https://todaymade.com/blog/markdown-documentation-generator/>
+- [13-things-people-hate-about-your-open-source-docs/](http://blog.smartbear.com/careers/13-things-people-hate-about-your-open-source-docs/)
+- <https://github.com/PharkMillups/beautiful-docs>
+- <https://github.com/karthik/markdown_science/wiki/Tools-to-support-your-markdown-authoring>
+- <https://todaymade.com/blog/markdown-documentation-generator/>

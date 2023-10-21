@@ -6,11 +6,11 @@ Obviously you need to install Haxe. There are a [couple of ways to do it](../hax
 
 And a [code editor](#ide) will be useful!
 
-----
+---
 
-Current version is:  
+Current version is:
 
-* **Haxe** v3.2.1
+- **Haxe** v3.2.1
 
 But if the version numbers changed, it means I haven't updated this part of the document in some time :D
 
@@ -19,11 +19,9 @@ But if the version numbers changed, it means I haven't updated this part of the 
 
 ![](../img/haxe_logo.png)
 
-* Get your version here: [http://haxe.org/download/](http://haxe.org/download/)
-
+- Get your version here: [http://haxe.org/download/](http://haxe.org/download/)
 
 <a name="ide"></a>
 ##Code editor
 
 If you work on Windows you should install [FlashDevelop](http://www.flashdevelop.org). On other platforms you should read this chapter: [Choosing a Code Editor](../haxe/choosing-a-code-editor.md).
-
