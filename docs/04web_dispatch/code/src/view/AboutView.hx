@@ -6,7 +6,7 @@ class AboutView {
 
 		var str = haxe.Resource.getString("bootstrap_basic");
 		var t = new haxe.Template(str);
-		var output = t.execute({title: "About"});
+		var output = t.execute({title: "/about"});
 
 		Lib.print(output);
 	}

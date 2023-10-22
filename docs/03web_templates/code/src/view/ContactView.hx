@@ -6,7 +6,7 @@ class ContactView {
 
 		var str = haxe.Resource.getString("bootstrap_basic");
 		var t = new haxe.Template(str);
-		var output = t.execute({title: "Contact"});
+		var output = t.execute({title: "/contact"});
 
 		Lib.print(output);
 	}

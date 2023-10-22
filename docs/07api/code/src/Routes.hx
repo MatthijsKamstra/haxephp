@@ -1,5 +1,6 @@
 package;
 
+import api.*;
 import view.*;
 
 class Routes {
@@ -14,6 +15,8 @@ class Routes {
 				new AboutView();
 			case "/contact":
 				new ContactView();
+			case "api/json":
+				new JsonApi();
 			default:
 				new HomeView();
 		}

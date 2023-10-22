@@ -15,7 +15,6 @@ class Main {
 	function new() {
 		var params = Web.getParams();
 		var state = params.exists('state') ? params.get('state') : 'home';
-
 		new ViewManager(state);
 	}
 

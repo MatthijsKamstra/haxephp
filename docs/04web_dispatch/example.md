@@ -74,7 +74,7 @@ This example shows what will happen when the url is <http://localhost/> and <htt
 And a little adjustment in the Template:
 
 ```
-<li class="::if (title == "About")::active::else::inactive::end::"><a href="/about">About</a></li>
+<li class="::if (title == "/about")::active::else::inactive::end::"><a href="/about">About</a></li>
 ```
 
 This is used to set the class of the `<li>` on `active` or `inactive`

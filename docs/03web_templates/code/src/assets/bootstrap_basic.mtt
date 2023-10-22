@@ -15,8 +15,8 @@
 		<div class="container">
 			<ul class="nav nav-pills">
 				<li class="::if (title == "Home")::active::else::inactive::end::"><a href="?state=home">Home</a></li>
-				<li class="::if (title == "About")::active::else::inactive::end::"><a href="?state=about">About</a></li>
-				<li class="::if (title == "Contact")::active::else::inactive::end::"><a href="?state=contact">Contact</a></li>
+				<li class="::if (title == "/about")::active::else::inactive::end::"><a href="?state=about">About</a></li>
+				<li class="::if (title == "/contact")::active::else::inactive::end::"><a href="?state=contact">Contact</a></li>
 			</ul>
 			<h1>::title::</h1>
 			<p>Ten years ago a crack commando unit was sent to prison by a military court for a crime they didn\'t commit. These men promptly escaped from a maximum security stockade to the Los Angeles underground. Today, still wanted by the government, they survive as soldiers of fortune. If you have a problem and no one else can help, and if you can find them, maybe you can hire the A-team.</p>

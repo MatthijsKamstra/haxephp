@@ -1,0 +1,11 @@
+-cp src
+-main Main
+-php bin/php
+# -debug
+-dce full
+-D no-deprecation-warnings
+
+# htaccess file
+-cmd cp -R src/assets/.htaccess bin/php
+
+

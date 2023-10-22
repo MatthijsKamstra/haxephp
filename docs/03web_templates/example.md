@@ -37,7 +37,7 @@ class HomeView
 
 		var str 	= haxe.Resource.getString("bootstrap_basic");
 		var t 		= new haxe.Template(str);
-		var output 	= t.execute({ title : "About" });
+		var output 	= t.execute({ title : "/about" });
 
 		php.Lib.print(output);
 	}
@@ -51,12 +51,12 @@ The interesting stuff is happing in the [template](https://github.com/MatthijsKa
 	<title>::title::</title>
 ```
 
-The `::title::` is replace with "About" from the example above
+The `::title::` is replace with "/about" from the example above
 
 And the more powerfull features of Template:
 
 ```
-<li class="::if (title == "About")::active::else::inactive::end::"><a href="?state=about">About</a></li>
+<li class="::if (title == "/about")::active::else::inactive::end::"><a href="?state=about">About</a></li>
 ```
 
 This is used to set the class of the `<li>` on `active` or `inactive`
