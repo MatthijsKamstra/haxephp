@@ -6,7 +6,7 @@ It will come close to a website, but without the styling.
 
 The next chapter will focus on that part.
 
-This will use the `php.Lib.print` function that prints some raw string (without adding debug information). It will print the parameters sent by the browser.
+This will use the `php.Lib.print` (or `neko.Lib.print`) function that prints some raw string (without adding debug information). It will print the parameters sent by the browser.
 
 There is also a lot of useful functionality available in the Web class.
 Read up on that here: [http://api.haxe.org/php/Web.html](http://api.haxe.org/php/Web.html)
