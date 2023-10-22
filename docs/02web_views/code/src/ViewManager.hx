@@ -7,9 +7,9 @@ class ViewManager {
 		switch (state.toLowerCase()) {
 			case "home":
 				new HomeView();
-			case "/about":
+			case "about":
 				new AboutView();
-			case "/contact":
+			case "contact":
 				new ContactView();
 			default:
 				new HomeView();
