@@ -9,6 +9,8 @@ class HomeView {
 		<li><a href="/contact">Contact</a></li>
 		<li><a href="/api">api</a></li>
 		<li><a href="/api/json">api/json</a></li>
+		<li><a href="/api/xml">api/xml</a></li>
+		<li><a href="/api/csv">api/csv</a></li>
 	</ul>';
 		Lib.print(output);
 	}
