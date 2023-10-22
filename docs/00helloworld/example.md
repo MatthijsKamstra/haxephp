@@ -20,8 +20,7 @@ Open your favorite editor, copy/paste the code and save it in the `src` folder.
 ```haxe
 package;
 
-class Main
-{
+class Main {
 	// constructor
 	function new() {
 		trace("Hello world");
@@ -59,7 +58,7 @@ static public function main() {var main = new Main(); }
 There are a lot of different arguments that you are able to pass to the Haxe compiler.
 Place these arguments into a text file of one per line with the extension hxml. This file can then passed directly to the Haxe compiler as a build script.
 
-```
+```bash
 # // build.hxml
 -cp src
 -main Main
@@ -81,6 +80,6 @@ You can configure your webserver to point at the www folder to see the PHP code 
 
 You could build everything directly in the terminal.
 
-```
+```bash
 haxe -cp src -main Main -php bin/www -dce full
 ```

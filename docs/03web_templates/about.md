@@ -1,8 +1,8 @@
-#About Webapi 3
+# About Webapi 3
 
 Already the third example in the webapi series!
 
-I try to build upon the previous webapi examples. If the [`example.md`](example.md) misses something, make sure to check out the previous webapi examples 
+I try to build upon the previous webapi examples. If the [`example.md`](example.md) misses something, make sure to check out the previous webapi examples
 
 The previous example was kinda ugly (un-styled), in this example we will fix that.
 
@@ -10,7 +10,6 @@ We will be using [template](http://api.haxe.org/haxe/Template.html) to make that
 Read more about this subject <http://haxe.org/manual/std-template.html>
 
 For styling we will use [Bootstrap](http://getbootstrap.com/getting-started/).
-And the same html structure: [check example here](http://getbootstrap.com/getting-started/#template) 
+And the same html structure: [check example here](http://getbootstrap.com/getting-started/#template)
 
 The CSS (styling) will be via Bootstrap CDN.
-

@@ -1,4 +1,4 @@
-#About flatfile
+# About flatfile
 
 A common way of loading data in your web-app is the use of `json` files.
 
