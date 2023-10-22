@@ -1,12 +1,12 @@
-# Example WebAPI 2
+# Example Web Routes
 
-Check the [code folder](https://github.com/MatthijsKamstra/haxephp/tree/master/02web_views/code) for more comments.
+Check the [code folder](https://github.com/MatthijsKamstra/haxephp/tree/master/03web_routes/code) for more comments.
 
 So far we've been only using the Haxe Generic API, available for all platforms. Now let's look at the ServerSide specific API, which is located in the package `php`.
 
 _Read more about this [here](about.md)_
 
-_The code used in this example can be found [here](https://github.com/MatthijsKamstra/haxephp/tree/master/02web_views/code)._
+_The code used in this example can be found [here](https://github.com/MatthijsKamstra/haxephp/tree/master/03web_routes/code)._
 
 ## How to start
 
@@ -31,21 +31,17 @@ package ;
 import php.Lib;
 import php.Web;
 
-class Main
-{
-	function new()
-	{
+class Main {
+	function new() {
 		var params 	= php.Web.getParams();
 		var state 	= params.exists('state') ? params.get('state') : 'home';
 		new ViewManager(state);
 	}
 
-	static public function main()
-	{
+	static public function main() {
 		var main = new Main();
 	}
 }
-
 ```
 
 Create a class with the name `ViewManager.hx` beside the `Main.hx`
@@ -55,10 +51,8 @@ package ;
 
 import view.*;
 
-class ViewManager
-{
-	public function new (state:String)
-	{
+class ViewManager {
+	public function new (state:String) {
 		switch (state.toLowerCase()) {
 			case "home":
 				new HomeView();
@@ -79,10 +73,8 @@ The class will look simular like this `HomeView` (check the example [code folder
 ```haxe
 package view;
 
-class HomeView
-{
-	public function new()
-	{
+class HomeView {
+	public function new() {
 		var output = '<h1>Home</h1>
 	<ul>
 		<li><a href="?state=home">Home</a></li>
