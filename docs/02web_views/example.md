@@ -31,17 +31,14 @@ package ;
 import php.Lib;
 import php.Web;
 
-class Main
-{
-	function new()
-	{
+class Main {
+	function new() {
 		var params 	= php.Web.getParams();
 		var state 	= params.exists('state') ? params.get('state') : 'home';
 		new ViewManager(state);
 	}
 
-	static public function main()
-	{
+	static public function main() {
 		var main = new Main();
 	}
 }

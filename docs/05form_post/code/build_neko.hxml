@@ -1,0 +1,14 @@
+-cp src
+-main Main
+-neko bin/neko/index.n
+# -debug
+-dce full
+
+# --next
+
+# # run application
+# -cmd cd bin/neko
+# # -cmd nekotools boot bin/index.n
+# -cmd neko index.n
+# -cmd echo "open http://localhost:2000/ to test this code"
+# -cmd nekotools server -rewrite

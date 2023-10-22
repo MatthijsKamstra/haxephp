@@ -13,16 +13,16 @@ import neko.Web;
  */
 class Main {
 	function new() {
-		trace("Example Forms<br>");
+		// trace("Example Forms<br>");
 
 		var params = Web.getParams();
-		var nm = params.exists('name') ? params.get('name') : 'none';
+		var name = params.exists('name') ? params.get('name') : 'none';
 		var password = params.exists('password') ? params.get('password') : 'none';
 
 		// If no data has been submitted by the user (i.e., they are
 		// just arriving at the web page), print the HTML form:
 
-		if ((nm == "none") && (password == "none")) {
+		if ((name == "none") && (password == "none")) {
 			Lib.print('
 				<form method="post" action="./">
 					Name:  <input type="text" name="name" size="25">
@@ -31,7 +31,7 @@ class Main {
 				</form>
 			');
 		} else {
-			Lib.print('Welcome: $nm, with password: $password');
+			Lib.print('Welcome: $name, with password: $password');
 		}
 	}
 
