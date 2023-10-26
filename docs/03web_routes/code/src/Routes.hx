@@ -4,7 +4,7 @@ import view.*;
 
 class Routes {
 	// Base path when url is http://localhost/my_website/bin/
-	static public var BASE_URL:String = "/";
+	static public var BASE_URL:String = "";
 
 	public function new(path:String = '') {
 		switch (path.toLowerCase()) {
@@ -20,7 +20,10 @@ class Routes {
 	}
 
 	public static function run() {
-		var url = Web.getURI().split(Routes.BASE_URL)[1];
+		var url = Web.getURI();
+		if (BASE_URL != '') {
+			url = Web.getURI().split(Routes.BASE_URL)[1];
+		}
 		var params = Web.getParams();
 		new Routes(url);
 	}
