@@ -1,16 +1,9 @@
-# About hello world
+# About logging
 
-Hello world is the first thing you will write in a new language.
+the default method for loging is `trace`. It's possible to create your own login system by overwriting this.
 
-> A "Hello, World!" program is a computer program that outputs "Hello, World!" (or some variant thereof) on a display device. Because it is typically one of the simplest programs possible in most programming languages, it is by tradition often used to illustrate to beginners the most basic syntax of a programming language. It is also used to verify that a language or system is operating correctly.
+But with php you don't want to output to the "screen", because if some data have been printed, the headers have already been sent so this will raise an exception.
 
-Source [wikipedia](https://en.wikipedia.org/wiki/%22Hello,_World!%22_program)
+So an logging system that outputs to a file is what we are making for PHP/Neko
 
-If you did the [Haxe basics](../haxe/hello-world.md) you already did a "Hello World".
-This one is a little more structured and more commented!
-
-Check the [code folder](https://github.com/MatthijsKamstra/haxephp/tree/master/00helloworld/code) for more comments.
-
----
-
-_Don't feel stupid, it's a thing (<https://en.wikipedia.org/wiki/List_of_Hello_world_program_examples>)_
+Appending data to a file.
